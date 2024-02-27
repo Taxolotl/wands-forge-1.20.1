@@ -1,6 +1,7 @@
 package io.github.taxolotl;
 
 import com.mojang.logging.LogUtils;
+import io.github.taxolotl.blocks.ModBlocks;
 import io.github.taxolotl.item.ModCreativeModeTabs;
 import io.github.taxolotl.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -25,6 +26,7 @@ public class Wands {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -40,6 +42,8 @@ public class Wands {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.LEMON);
             event.accept(ModItems.LEMON_DROP);
+        } else if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.WAND);
         }
     }
 

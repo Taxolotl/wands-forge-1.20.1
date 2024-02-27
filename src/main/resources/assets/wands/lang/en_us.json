@@ -1,6 +1,11 @@
 {
   "item.wands.lemon": "Lemon",
   "item.wands.lemon_drop": "Lemon Drop",
+  "item.wands.wand": "Magic Wand",
+
+  "block.wands.magic_bricks": "Magic Bricks",
+
+  "tooltip.wands.wand.tooltip": "A wand designed to help focus your magical abilities",
 
   "creativetab.wands_tab": "Wands"
 }

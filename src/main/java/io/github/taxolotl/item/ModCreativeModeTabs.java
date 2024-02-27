@@ -1,6 +1,7 @@
 package io.github.taxolotl.item;
 
 import io.github.taxolotl.Wands;
+import io.github.taxolotl.blocks.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.LEMON.get());
                         pOutput.accept(ModItems.LEMON_DROP.get());
+                        pOutput.accept(ModItems.WAND.get());
+                        pOutput.accept(ModBlocks.MAGIC_BRICKS.get());
                     })
                     .build());
 
