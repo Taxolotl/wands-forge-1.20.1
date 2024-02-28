@@ -35,6 +35,18 @@ public class WandItem extends Item {
                 level.setBlock(positionClicked, ModBlocks.MAGIC_BRICKS.get().defaultBlockState(), 1);
                 food.setFoodLevel(food.getFoodLevel()-2);
                 player.sendSystemMessage(Component.literal("Successfully magicified!"));
+            } else if(pContext.getLevel().getBlockState(positionClicked).is(Blocks.BRICK_SLAB)) {
+                level.setBlock(positionClicked, ModBlocks.MAGIC_BRICK_SLAB.get().defaultBlockState(), 1);
+                food.setFoodLevel(food.getFoodLevel()-2);
+                player.sendSystemMessage(Component.literal("Successfully magicified!"));
+            } else if(pContext.getLevel().getBlockState(positionClicked).is(Blocks.BRICK_STAIRS)) {
+                level.setBlock(positionClicked, ModBlocks.MAGIC_BRICK_STAIRS.get().defaultBlockState(), 1);
+                food.setFoodLevel(food.getFoodLevel()-2);
+                player.sendSystemMessage(Component.literal("Successfully magicified!"));
+            } else if(pContext.getLevel().getBlockState(positionClicked).is(Blocks.BRICK_WALL)) {
+                level.setBlock(positionClicked, ModBlocks.MAGIC_BRICK_WALL.get().defaultBlockState(), 1);
+                food.setFoodLevel(food.getFoodLevel()-2);
+                player.sendSystemMessage(Component.literal("Successfully magicified!"));
             } else {
                 food.setFoodLevel(food.getFoodLevel()-1);
                 player.sendSystemMessage(Component.literal("Block is not bricks, could not magicify"));

@@ -1,0 +1,12 @@
+// 1.20.1	2024-02-27T22:28:47.8173731	Block States: wands
+8be9ff93caf17fd5fb31a002118ba03e99abca2d assets/wands/blockstates/magic_brick_slab.json
+b7c263ca641153e2a4e3429c50069d8f5c02d253 assets/wands/blockstates/magic_brick_stairs.json
+e6c00369b7bf72a257e598044fc7049a79020b4f assets/wands/blockstates/magic_brick_wall.json
+555ba1ba49bd48b801bebf21626963c6f9924975 assets/wands/models/block/magic_brick_slab.json
+0fef858d0078e395cacad399448e9c05414cff48 assets/wands/models/block/magic_brick_slab_top.json
+b562996beebbf91a4b4b996dcd8fda0bf08d3943 assets/wands/models/block/magic_brick_stairs.json
+36529a331e6436553f711a674fecdc3f5cbd5e9d assets/wands/models/block/magic_brick_stairs_inner.json
+c336b975cee7a2be7f1a8470cd14132060bda29b assets/wands/models/block/magic_brick_stairs_outer.json
+462b60216b5d78ba494909f2abda91cf934b81ea assets/wands/models/block/magic_brick_wall_post.json
+f403e59219b383ece025a2a9b3eb6d63983860f3 assets/wands/models/block/magic_brick_wall_side.json
+735bbadaa3d2dd5c0f8d3a2d13f8c755e0aa3294 assets/wands/models/block/magic_brick_wall_side_tall.json

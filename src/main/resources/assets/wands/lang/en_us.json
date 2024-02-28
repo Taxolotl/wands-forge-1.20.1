@@ -4,6 +4,9 @@
   "item.wands.wand": "Magic Wand",
 
   "block.wands.magic_bricks": "Magic Bricks",
+  "block.wands.magic_brick_stairs": "Magic Brick Stairs",
+  "block.wands.magic_brick_slab": "Magic Brick Slab",
+  "block.wands.magic_brick_wall": "Magic Brick Wall",
 
   "tooltip.wands.wand.tooltip": "A wand designed to help focus your magical abilities",
 

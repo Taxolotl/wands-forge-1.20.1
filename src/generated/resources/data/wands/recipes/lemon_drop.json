@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "wands:lemon"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    " SS",
+    "SLS",
+    "SS "
+  ],
+  "result": {
+    "item": "wands:lemon_drop"
+  },
+  "show_notification": true
+}

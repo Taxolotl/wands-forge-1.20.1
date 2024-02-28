@@ -22,6 +22,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.LEMON_DROP.get());
                         pOutput.accept(ModItems.WAND.get());
                         pOutput.accept(ModBlocks.MAGIC_BRICKS.get());
+                        pOutput.accept(ModBlocks.MAGIC_BRICK_STAIRS.get());
+                        pOutput.accept(ModBlocks.MAGIC_BRICK_SLAB.get());
+                        pOutput.accept(ModBlocks.MAGIC_BRICK_WALL.get());
                     })
                     .build());
 
