@@ -1,5 +1,7 @@
-// 1.20.1	2024-02-28T01:14:38.1204546	Item Models: wands
+// 1.20.1	2024-02-28T01:20:33.3895866	Item Models: wands
 c859fc6d7e58a934abad9761d502bc63dd88a86a assets/wands/models/item/lemon.json
 30a337d8fa4b2b4164c62aea1a30d50377da7fa0 assets/wands/models/item/lemon_drop.json
+16d91141e3c9d9306f2dedf3939dd5743953df4d assets/wands/models/item/magic_brick_slab.json
+576c6d8d3fe56f17325fd875bd7abd15ee066159 assets/wands/models/item/magic_brick_stairs.json
 2c3743fab1ea58406142ca107bb47f8bb15d1ee5 assets/wands/models/item/magic_brick_wall.json
 4626244bc152f47b500dccf7ca03f1b8dab1122b assets/wands/models/item/wand.json
