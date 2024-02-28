@@ -1,13 +1,17 @@
 package io.github.taxolotl.datagen;
 
 import io.github.taxolotl.Wands;
+import io.github.taxolotl.blocks.ModBlocks;
 import io.github.taxolotl.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {
@@ -21,12 +25,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LEMON_DROP);
         simpleItem(ModItems.WAND);
 
-        wallItem(ModBlocks.MAGIC_BRICK_WALL, Blocks.BRICKS);
+        brickWallItem(ModBlocks.MAGIC_BRICK_WALL);
     }
 
-    public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+    public void brickWallItem(RegistryObject<Block> block) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
-            .texture("wall", new ResourceLocation(Wands.MOD_ID, "block/" ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath());
+            .texture("wall", new ResourceLocation("minecraft:block/bricks"));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
