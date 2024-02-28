@@ -26,11 +26,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WAND);
 
         brickWallItem(ModBlocks.MAGIC_BRICK_WALL);
+        evenSimplerBlockItem(ModBlocks.MAGIC_BRICK_STAIRS);
+        evenSimplerBlockItem(ModBlocks.MAGIC_BRICK_SLAB);
     }
 
     public void brickWallItem(RegistryObject<Block> block) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
             .texture("wall", new ResourceLocation("minecraft:block/bricks"));
+    }
+
+     public void evenSimplerBlockItem(RegistryObject<Block> block) {
+        this.withExistingParent(TutorialMod.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+                modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
