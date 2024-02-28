@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Wands.MOD_ID);
 
     public static final RegistryObject WANDS_TAB = CREATIVE_MODE_TABS.register("wands_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LEMON.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.WAND.get()))
                     .title(Component.translatable("creativetab.wands_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.LEMON.get());

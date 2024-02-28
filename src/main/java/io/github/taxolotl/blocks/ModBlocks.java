@@ -24,7 +24,10 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Wands.MOD_ID);
 
     public static final RegistryObject<Block> MAGIC_BRICKS = registerBlock("magic_bricks",
-            () -> new MagicBrickBlock(BlockBehaviour.Properties.copy(Blocks.BRICKS).isViewBlocking((something1, something2, something3) -> false).isSuffocating((something1, something2, something3) -> false).noOcclusion()));
+            () -> new MagicBrickBlock(BlockBehaviour.Properties.copy(Blocks.BRICKS)
+                    .isViewBlocking((something1, something2, something3) -> false)
+                    .isSuffocating((something1, something2, something3) -> false)
+                    .noOcclusion()));
 
     public static final RegistryObject<Block> MAGIC_BRICK_STAIRS = registerBlock("magic_brick_stairs",
             () -> new MagicBrickStairBlock(() -> ModBlocks.MAGIC_BRICKS.get().defaultBlockState(),
