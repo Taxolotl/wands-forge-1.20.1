@@ -20,6 +20,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LEMON);
         simpleItem(ModItems.LEMON_DROP);
         simpleItem(ModItems.WAND);
+
+        wallItem(ModBlocks.MAGIC_BRICK_WALL, Blocks.BRICKS);
+    }
+
+    public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
+            .texture("wall", new ResourceLocation(Wands.MOD_ID, "block/" ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath());
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
