@@ -29,5 +29,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.MAGIC_BRICK_STAIRS.get())
                 .add(ModBlocks.MAGIC_BRICK_SLAB.get())
                 .add(ModBlocks.MAGIC_BRICK_WALL.get());
+
+        this.tag(BlockTags.WALLS)
+            .add(ModBlocks.MAGIC_BRICK_WALL.get());
     }
 }
