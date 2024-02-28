@@ -36,7 +36,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
      public void evenSimplerBlockItem(RegistryObject<Block> block) {
-        this.withExistingParent(TutorialMod.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+        this.withExistingParent(Wands.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
                 modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
     }
 
