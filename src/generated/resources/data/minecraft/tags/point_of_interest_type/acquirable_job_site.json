@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "wands:candy_poi",
+      "required": false
+    },
+    {
+      "id": "wands:exchanger_poi",
+      "required": false
+    }
+  ]
+}

@@ -18,9 +18,13 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.WAND.get()))
                     .title(Component.translatable("creativetab.wands_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.LEMON.get());
                         pOutput.accept(ModItems.LEMON_DROP.get());
                         pOutput.accept(ModItems.WAND.get());
+                        pOutput.accept(ModItems.MOUNTAIN_TROLL_SPAWN_EGG.get());
+                        pOutput.accept(ModItems.KNUT.get());
+                        pOutput.accept(ModItems.SICKLE.get());
+                        pOutput.accept(ModItems.GALLEON.get());
+                        pOutput.accept(ModItems.EVERY_FLAVOUR_BEANS.get());
                         pOutput.accept(ModBlocks.MAGIC_BRICKS.get());
                         pOutput.accept(ModBlocks.MAGIC_BRICK_STAIRS.get());
                         pOutput.accept(ModBlocks.MAGIC_BRICK_SLAB.get());

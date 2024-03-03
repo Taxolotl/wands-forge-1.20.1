@@ -21,8 +21,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        this.tag(ModTags.Blocks.WAND_WOODS)
-                .add(Blocks.OAK_PLANKS);
+        this.tag(ModTags.Blocks.BRICKS_TAG)
+                .add(Blocks.BRICK_SLAB)
+                .add(Blocks.BRICK_STAIRS)
+                .add(Blocks.BRICK_WALL)
+                .add(Blocks.BRICKS);
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.MAGIC_BRICKS.get())

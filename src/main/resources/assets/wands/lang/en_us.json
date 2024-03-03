@@ -1,7 +1,11 @@
 {
-  "item.wands.lemon": "Lemon",
   "item.wands.lemon_drop": "Lemon Drop",
+  "item.wands.every_flavour_beans": "Bertie Bott's Every Flavour Beans",
   "item.wands.wand": "Magic Wand",
+  "item.wands.knut": "Knut",
+  "item.wands.sickle": "Sickle",
+  "item.wands.galleon": "Galleon",
+  "item.wands.mountain_troll_spawn_egg": "Mountain Troll Spawn Egg",
 
   "block.wands.magic_bricks": "Magic Bricks",
   "block.wands.magic_brick_stairs": "Magic Brick Stairs",
@@ -9,6 +13,10 @@
   "block.wands.magic_brick_wall": "Magic Brick Wall",
 
   "tooltip.wands.wand.tooltip": "A wand designed to help focus your magical abilities",
+
+  "entity.minecraft.villager.wands.candy_maker": "Candy Maker",
+  "entity.minecraft.villager.wands.exchanger": "Exchanger",
+  "entity.wands.mountain_troll": "Mountain Troll",
 
   "creativetab.wands_tab": "Wands"
 }

@@ -19,22 +19,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.LEMON_DROP.get())
-                .pattern(" SS")
-                .pattern("SLS")
-                .pattern("SS ")
-                .define('S', Items.SUGAR)
-                .define('L', ModItems.LEMON.get())
-                .unlockedBy(getHasName(ModItems.LEMON.get()), has(ModItems.LEMON.get()))
-                .save(pWriter);
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WAND.get())
                 .pattern("  W")
                 .pattern(" C ")
                 .pattern("W  ")
                 .define('W', ModTags.Items.WAND_WOODS)
                 .define('C', ModTags.Items.WAND_CORES)
-                .unlockedBy(getHasName(ModItems.LEMON.get()), has(ModItems.LEMON.get()))
+                .unlockedBy(getHasName(ModItems.LEMON_DROP.get()), has(ModItems.LEMON_DROP.get()))
                 .save(pWriter);
     }
 }

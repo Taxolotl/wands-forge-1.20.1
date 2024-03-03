@@ -1,4 +1,4 @@
-// 1.20.1	2024-02-28T18:32:53.7346213	Tags for minecraft:block mod id wands
+// 1.20.1	2024-03-02T12:11:31.484173	Tags for minecraft:block mod id wands
 b8c9a6cc354958b9390862ac9c8a151ac13d7c9f data/minecraft/tags/blocks/mineable/pickaxe.json
 7b826323c5f0a0ad5d69e630bacb41d6fceb4f71 data/minecraft/tags/blocks/walls.json
-68c91e4420f4b41bb7c2278705cc4130f7d50ade data/wands/tags/blocks/wand_woods.json
+e996ff0a3c5b825eb55f2131a66ce09dd9f4b8ea data/wands/tags/blocks/bricks_tag.json

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lemon": {
+    "has_lemon_drop": {
       "conditions": {
         "items": [
           {
             "items": [
-              "wands:lemon"
+              "wands:lemon_drop"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_lemon",
+      "has_lemon_drop",
       "has_the_recipe"
     ]
   ],

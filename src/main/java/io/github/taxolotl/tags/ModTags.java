@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> WAND_WOODS = tag("wand_woods");
+        public static final TagKey<Block> BRICKS_TAG = tag("bricks_tag");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(Wands.MOD_ID, name));

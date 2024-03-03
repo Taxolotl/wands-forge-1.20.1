@@ -2,8 +2,12 @@ package io.github.taxolotl;
 
 import com.mojang.logging.LogUtils;
 import io.github.taxolotl.blocks.ModBlocks;
+import io.github.taxolotl.entity.ModEntities;
+import io.github.taxolotl.entity.client.MountainTrollRenderer;
 import io.github.taxolotl.item.ModCreativeModeTabs;
 import io.github.taxolotl.item.ModItems;
+import io.github.taxolotl.villagers.ModVillagers;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,6 +32,10 @@ public class Wands {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModVillagers.register(modEventBus);
+
+        ModEntities.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -40,8 +48,8 @@ public class Wands {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(ModItems.LEMON);
             event.accept(ModItems.LEMON_DROP);
+            event.accept(ModItems.EVERY_FLAVOUR_BEANS);
         } else if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.WAND);
         }
@@ -51,7 +59,7 @@ public class Wands {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            EntityRenderers.register(ModEntities.MOUNTAIN_TROLL.get(), MountainTrollRenderer::new);
         }
     }
 }

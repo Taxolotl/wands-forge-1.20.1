@@ -20,12 +20,17 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(ModItems.LEMON);
         simpleItem(ModItems.LEMON_DROP);
+        simpleItem(ModItems.EVERY_FLAVOUR_BEANS);
+        simpleItem(ModItems.KNUT);
+        simpleItem(ModItems.SICKLE);
+        simpleItem(ModItems.GALLEON);
 
         brickWallItem(ModBlocks.MAGIC_BRICK_WALL);
         evenSimplerBlockItem(ModBlocks.MAGIC_BRICK_STAIRS);
         evenSimplerBlockItem(ModBlocks.MAGIC_BRICK_SLAB);
+
+        withExistingParent(ModItems.MOUNTAIN_TROLL_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     public void brickWallItem(RegistryObject<Block> block) {

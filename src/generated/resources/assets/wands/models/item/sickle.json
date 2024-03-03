@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "wands:item/lemon"
+    "layer0": "wands:item/sickle"
   }
 }
