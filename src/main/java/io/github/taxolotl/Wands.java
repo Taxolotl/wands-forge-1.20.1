@@ -3,12 +3,15 @@ package io.github.taxolotl;
 import com.mojang.logging.LogUtils;
 import io.github.taxolotl.blocks.ModBlocks;
 import io.github.taxolotl.entity.ModEntities;
+import io.github.taxolotl.entity.client.HornedSlugRenderer;
 import io.github.taxolotl.entity.client.MountainTrollRenderer;
 import io.github.taxolotl.item.ModCreativeModeTabs;
 import io.github.taxolotl.item.ModItems;
 import io.github.taxolotl.villagers.ModVillagers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -43,7 +46,9 @@ public class Wands {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        event.enqueueWork(() -> {
+                ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.DITTANY.getId(), ModBlocks.POTTED_DITTANY);
+        });
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
@@ -60,6 +65,7 @@ public class Wands {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.MOUNTAIN_TROLL.get(), MountainTrollRenderer::new);
+            EntityRenderers.register(ModEntities.HORNED_SLUG.get(), HornedSlugRenderer::new);
         }
     }
 }

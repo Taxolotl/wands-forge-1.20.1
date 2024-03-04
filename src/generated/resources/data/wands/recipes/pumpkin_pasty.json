@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "minecraft:wheat"
+    },
+    "P": {
+      "item": "minecraft:pumpkin"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "HSH",
+    "SPS",
+    "HWH"
+  ],
+  "result": {
+    "count": 10,
+    "item": "wands:pumpkin_pasty"
+  },
+  "show_notification": true
+}

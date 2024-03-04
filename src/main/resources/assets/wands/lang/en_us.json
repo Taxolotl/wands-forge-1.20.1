@@ -1,22 +1,40 @@
 {
   "item.wands.lemon_drop": "Lemon Drop",
   "item.wands.every_flavour_beans": "Bertie Bott's Every Flavour Beans",
+  "item.wands.blowing_gum": "Drooble's Best Blowing Gum",
+  "item.wands.chocolate_frog": "Chocolate Frog",
+  "item.wands.pumpkin_pasty": "Pumpkin Pasty",
+  "item.wands.licorice_wand": "Licorice Wand",
+  "item.wands.cauldron_cake": "Cauldron Cake",
+  "item.wands.peppermint_humbug": "Peppermint Humbug",
+  "item.wands.wizard_cracker": "Wizard Cracker",
+  "item.wands.treacle_tart": "Treacle Tart",
+  "item.wands.bezoar": "Bezoar",
   "item.wands.wand": "Magic Wand",
   "item.wands.knut": "Knut",
   "item.wands.sickle": "Sickle",
   "item.wands.galleon": "Galleon",
   "item.wands.mountain_troll_spawn_egg": "Mountain Troll Spawn Egg",
+  "item.wands.mountain_troll_boogers": "Mountain Troll Boogers",
+  "item.wands.horned_slug_spawn_egg": "Horned Slug Spawn Egg",
+  "item.wands.horned_slug": "Horned Slug",
+  "item.wands.dragon_liver": "Dragon Liver",
+  "item.wands.dragon_heartstring": "Dragon Heartstring",
+  "item.wands.bat_spleen": "Bat Spleen",
 
   "block.wands.magic_bricks": "Magic Bricks",
   "block.wands.magic_brick_stairs": "Magic Brick Stairs",
   "block.wands.magic_brick_slab": "Magic Brick Slab",
   "block.wands.magic_brick_wall": "Magic Brick Wall",
+  "block.wands.dittany": "Dittany",
+  "block.wands.potted_dittany": "Pot of Dittany",
 
   "tooltip.wands.wand.tooltip": "A wand designed to help focus your magical abilities",
 
   "entity.minecraft.villager.wands.candy_maker": "Candy Maker",
   "entity.minecraft.villager.wands.exchanger": "Exchanger",
   "entity.wands.mountain_troll": "Mountain Troll",
+  "entity.wands.horned_slug": "Horned Slug",
 
   "creativetab.wands_tab": "Wands"
 }

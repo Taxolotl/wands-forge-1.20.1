@@ -1,5 +1,7 @@
-// 1.20.1	2024-03-01T15:19:51.2040741	Loot Tables
+// 1.20.1	2024-03-03T19:30:48.196055	Loot Tables
+de1a32f4d90d9dc67a802e80bda18a0e3e9af40f data/wands/loot_tables/blocks/dittany.json
 90c16bc1e4bf45e9dd254bed19ab3b5cbd2475ac data/wands/loot_tables/blocks/magic_bricks.json
 bc2ca966a89eab554fbcde65282efccb5d1fc826 data/wands/loot_tables/blocks/magic_brick_slab.json
 7658b7788d8c2ec70d9e386f65d6bf72544962e8 data/wands/loot_tables/blocks/magic_brick_stairs.json
 c09952877e532f9bf7b73725c0cc44fc66479030 data/wands/loot_tables/blocks/magic_brick_wall.json
+35b7dcb50c51a4f83719a3700266c2b27b871e5d data/wands/loot_tables/blocks/potted_dittany.json

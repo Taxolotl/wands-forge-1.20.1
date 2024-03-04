@@ -20,12 +20,43 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WAND.get())
-                .pattern("  W")
-                .pattern(" C ")
-                .pattern("W  ")
+                .pattern(" C")
+                .pattern("W ")
                 .define('W', ModTags.Items.WAND_WOODS)
                 .define('C', ModTags.Items.WAND_CORES)
                 .unlockedBy(getHasName(ModItems.LEMON_DROP.get()), has(ModItems.LEMON_DROP.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.PUMPKIN_PASTY.get(), 10)
+                .pattern("HSH")
+                .pattern("SPS")
+                .pattern("HWH")
+                .define('P', Items.PUMPKIN)
+                .define('W', Items.WATER_BUCKET)
+                .define('S', Items.SUGAR)
+                .define('H', Items.WHEAT)
+                .unlockedBy(getHasName(Items.PUMPKIN), has(Items.PUMPKIN))
+                .save(pWriter);
+
+        //Cauldron cakes will have a custom recipe within a wizard's cauldron
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.PEPPERMINT_HUMBUG.get(), 2)
+                .pattern("   ")
+                .pattern("SP ")
+                .pattern("PS ")
+                .define('P', Items.FLOWERING_AZALEA_LEAVES) // Please remember to change this to something else
+                .define('S', Items.SUGAR)
+                .unlockedBy(getHasName(Items.FLOWERING_AZALEA_LEAVES), has(Items.FLOWERING_AZALEA_LEAVES))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.TREACLE_TART.get(), 1)
+                .pattern("TWT")
+                .pattern("HTH")
+                .pattern("HHH")
+                .define('T', Items.SUGAR)
+                .define('H', Items.WHEAT)
+                .define('W', Items.WATER_BUCKET)
+                .unlockedBy(getHasName(Items.SUGAR), has(Items.SUGAR))
                 .save(pWriter);
     }
 }

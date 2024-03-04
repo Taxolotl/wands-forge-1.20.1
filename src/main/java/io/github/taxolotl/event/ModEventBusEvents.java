@@ -2,6 +2,7 @@ package io.github.taxolotl.event;
 
 import io.github.taxolotl.Wands;
 import io.github.taxolotl.entity.ModEntities;
+import io.github.taxolotl.entity.custom.HornedSlugEntity;
 import io.github.taxolotl.entity.custom.MountainTrollEntity;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -12,5 +13,6 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void registerAttributes(EntityAttributeCreationEvent event) {
         event.put(ModEntities.MOUNTAIN_TROLL.get(), MountainTrollEntity.createAttributes().build());
+        event.put(ModEntities.HORNED_SLUG.get(), HornedSlugEntity.createAttributes().build());
     }
 }

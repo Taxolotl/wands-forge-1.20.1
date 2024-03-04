@@ -1,7 +1,10 @@
-// 1.20.1	2024-03-01T15:19:51.2197103	Block States: wands
+// 1.20.1	2024-03-03T19:30:48.2003952	Block States: wands
+5c11e7dbf4be259a34584aea0129c11459f881bb assets/wands/blockstates/dittany.json
 8be9ff93caf17fd5fb31a002118ba03e99abca2d assets/wands/blockstates/magic_brick_slab.json
 b7c263ca641153e2a4e3429c50069d8f5c02d253 assets/wands/blockstates/magic_brick_stairs.json
 e6c00369b7bf72a257e598044fc7049a79020b4f assets/wands/blockstates/magic_brick_wall.json
+93d6e6822e87aff7a8255e98813ab9c26e938546 assets/wands/blockstates/potted_dittany.json
+b772a6c83e12f73d237fd0c628102a10bb1cac7b assets/wands/models/block/dittany.json
 555ba1ba49bd48b801bebf21626963c6f9924975 assets/wands/models/block/magic_brick_slab.json
 0fef858d0078e395cacad399448e9c05414cff48 assets/wands/models/block/magic_brick_slab_top.json
 b562996beebbf91a4b4b996dcd8fda0bf08d3943 assets/wands/models/block/magic_brick_stairs.json
@@ -10,3 +13,6 @@ c336b975cee7a2be7f1a8470cd14132060bda29b assets/wands/models/block/magic_brick_s
 462b60216b5d78ba494909f2abda91cf934b81ea assets/wands/models/block/magic_brick_wall_post.json
 f403e59219b383ece025a2a9b3eb6d63983860f3 assets/wands/models/block/magic_brick_wall_side.json
 735bbadaa3d2dd5c0f8d3a2d13f8c755e0aa3294 assets/wands/models/block/magic_brick_wall_side_tall.json
+311f54b4564b80c8d5348ab31bee1c120e72324f assets/wands/models/block/potted_dittany.json
+c15414df19f3fac9a888ec24bc0702d1fa16fdeb assets/wands/models/item/dittany.json
+de86804d9e42434052ab4a4367008fbcabc6a796 assets/wands/models/item/potted_dittany.json

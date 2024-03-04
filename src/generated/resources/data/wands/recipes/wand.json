@@ -10,9 +10,8 @@
     }
   },
   "pattern": [
-    "  W",
-    " C ",
-    "W  "
+    " C",
+    "W "
   ],
   "result": {
     "item": "wands:wand"

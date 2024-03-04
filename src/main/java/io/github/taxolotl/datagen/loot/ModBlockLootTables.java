@@ -20,6 +20,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropOther(ModBlocks.MAGIC_BRICK_STAIRS.get(), Blocks.BRICK_STAIRS);
         this.dropOther(ModBlocks.MAGIC_BRICK_SLAB.get(), Blocks.BRICK_SLAB);
         this.dropOther(ModBlocks.MAGIC_BRICK_WALL.get(), Blocks.BRICK_WALL);
+
+        this.dropSelf(ModBlocks.DITTANY.get());
+        this.add(ModBlocks.POTTED_DITTANY.get(), createPotFlowerItemTable(ModBlocks.DITTANY.get()));
     }
 
     @Override

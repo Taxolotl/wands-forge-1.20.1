@@ -1,10 +1,26 @@
-// 1.20.1	2024-03-01T22:17:15.7019524	Item Models: wands
+// 1.20.1	2024-03-04T13:48:00.0803698	Item Models: wands
+f42f4bc0c20f8e524b49a65f8a497d47b2a92f44 assets/wands/models/item/bat_spleen.json
+5d7c0f05350e6496b34b956ed607c04731e77d0b assets/wands/models/item/bezoar.json
+f4a9cf16b8737e0f42fddf50165e2c3e4a9f39d9 assets/wands/models/item/blowing_gum.json
+377abb61ecaeed0e2f5d37a0d8390a87fd63d480 assets/wands/models/item/cauldron_cake.json
+7f1ba7958ae903e1acb68cd60fa8419079dd2241 assets/wands/models/item/chocolate_frog.json
+bea150578be42dcdce89f13aeded036280482088 assets/wands/models/item/dittany.json
+109369fd27d499488d4bc36276fd52524a16f1db assets/wands/models/item/dragon_heartstring.json
+9fd15ebac944081993a87297c16e5a040aed6733 assets/wands/models/item/dragon_liver.json
 09e662ca897ff235457d3ef47fa1905901761716 assets/wands/models/item/every_flavour_beans.json
 e45842d56c439ae5f7cb31c4340adf78a422e983 assets/wands/models/item/galleon.json
+6cf986a5266127dad3106c3bc84cf70e17076c7d assets/wands/models/item/horned_slug.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/wands/models/item/horned_slug_spawn_egg.json
 634f93287377e7c837367cf8e82541d3d60efad4 assets/wands/models/item/knut.json
 30a337d8fa4b2b4164c62aea1a30d50377da7fa0 assets/wands/models/item/lemon_drop.json
+3a48070724ae4526851fcbb4443e0380d227192e assets/wands/models/item/licorice_wand.json
 16d91141e3c9d9306f2dedf3939dd5743953df4d assets/wands/models/item/magic_brick_slab.json
 576c6d8d3fe56f17325fd875bd7abd15ee066159 assets/wands/models/item/magic_brick_stairs.json
 2c3743fab1ea58406142ca107bb47f8bb15d1ee5 assets/wands/models/item/magic_brick_wall.json
+8aff5f1b4ed5d2a6fc3d4224ac33f3470100aa62 assets/wands/models/item/mountain_troll_boogers.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/wands/models/item/mountain_troll_spawn_egg.json
+a67780c64f99144605e047568819534271ba056c assets/wands/models/item/peppermint_humbug.json
+be184e74ee8baa80d9b3af0bf4df58a6e0affbef assets/wands/models/item/pumpkin_pasty.json
 7f932d7e8ab06170f65ba6f4bde008553530670c assets/wands/models/item/sickle.json
+a73cb1c8b58a0094f6f2c00d4bba92832904827f assets/wands/models/item/treacle_tart.json
+b3c4914ceecb5dea4ef3242df36ef1a0d26a1612 assets/wands/models/item/wizard_cracker.json

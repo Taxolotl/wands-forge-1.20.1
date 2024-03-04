@@ -22,6 +22,21 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.LEMON_DROP);
         simpleItem(ModItems.EVERY_FLAVOUR_BEANS);
+        simpleItem(ModItems.BLOWING_GUM);
+        simpleItem(ModItems.CHOCOLATE_FROG);
+        simpleItem(ModItems.PUMPKIN_PASTY);
+        simpleItem(ModItems.LICORICE_WAND);
+        simpleItem(ModItems.CAULDRON_CAKE);
+        simpleItem(ModItems.PEPPERMINT_HUMBUG);
+        simpleItem(ModItems.WIZARD_CRACKER);
+        simpleItem(ModItems.TREACLE_TART);
+
+        simpleItem(ModItems.BEZOAR);
+        simpleItem(ModItems.DRAGON_HEARTSTRING);
+        simpleItem(ModItems.DRAGON_LIVER);
+        simpleItem(ModItems.BAT_SPLEEN);
+        simpleItem(ModItems.HORNED_SLUG);
+
         simpleItem(ModItems.KNUT);
         simpleItem(ModItems.SICKLE);
         simpleItem(ModItems.GALLEON);
@@ -31,6 +46,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.MAGIC_BRICK_SLAB);
 
         withExistingParent(ModItems.MOUNTAIN_TROLL_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        simpleItem(ModItems.MOUNTAIN_TROLL_BOOGERS);
+
+        withExistingParent(ModItems.HORNED_SLUG_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
+        simpleBlockItemBlockTexture(ModBlocks.DITTANY);
     }
 
     public void brickWallItem(RegistryObject<Block> block) {
@@ -47,5 +67,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(Wands.MOD_ID, "item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(Wands.MOD_ID, "block/" + item.getId().getPath()));
     }
 }

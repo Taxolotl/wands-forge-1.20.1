@@ -1,6 +1,7 @@
 package io.github.taxolotl.entity.custom;
 
 import io.github.taxolotl.entity.ai.MountainTrollAttackGoal;
+import io.github.taxolotl.item.ModItems;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -8,6 +9,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.AnimationState;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -17,9 +19,11 @@ import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.animal.IronGolem;
+import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.npc.Villager;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
@@ -42,7 +46,7 @@ public class MountainTrollEntity extends Monster {
         super.tick();
 
         if(this.level().isClientSide()) {
-
+            setupAnimationStates();
         }
     }
 
@@ -129,5 +133,13 @@ public class MountainTrollEntity extends Monster {
     @Override
     protected SoundEvent getDeathSound() {
         return SoundEvents.GOAT_SCREAMING_DEATH;
+    }
+
+    @Override
+    protected void dropCustomDeathLoot(DamageSource pSource, int pLooting, boolean pRecentlyHit) {
+        super.dropCustomDeathLoot(pSource, pLooting, pRecentlyHit);
+        if (pSource.getEntity() instanceof Player) {
+            this.spawnAtLocation(new ItemStack(ModItems.MOUNTAIN_TROLL_BOOGERS.get()));
+        }
     }
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "minecraft:wheat"
+    },
+    "T": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "TWT",
+    "HTH",
+    "HHH"
+  ],
+  "result": {
+    "item": "wands:treacle_tart"
+  },
+  "show_notification": true
+}

@@ -186,4 +186,31 @@ public class ModAnimationDefinitions {
                                     AnimationChannel.Interpolations.LINEAR),
                             new Keyframe(1f, KeyframeAnimations.degreeVec(0f, 0f, 90f),
                                     AnimationChannel.Interpolations.LINEAR))).build();
+
+    public static final AnimationDefinition HORNED_SLUG_IDLE = AnimationDefinition.Builder.withLength(0.5f).looping()
+            .addAnimation("left_horn",
+                    new AnimationChannel(AnimationChannel.Targets.ROTATION,
+                            new Keyframe(0f, KeyframeAnimations.degreeVec(2.39f, 2.61f, -2.5f),
+                                    AnimationChannel.Interpolations.LINEAR),
+                            new Keyframe(0.25f, KeyframeAnimations.degreeVec(0f, 0f, 0f),
+                                    AnimationChannel.Interpolations.LINEAR),
+                            new Keyframe(0.5f, KeyframeAnimations.degreeVec(2.39f, 2.61f, -2.5f),
+                                    AnimationChannel.Interpolations.LINEAR)))
+            .addAnimation("right_horn",
+                    new AnimationChannel(AnimationChannel.Targets.ROTATION,
+                            new Keyframe(0f, KeyframeAnimations.degreeVec(2.39f, -2.61f, 2.5f),
+                                    AnimationChannel.Interpolations.LINEAR),
+                            new Keyframe(0.25f, KeyframeAnimations.degreeVec(0f, 0f, 0f),
+                                    AnimationChannel.Interpolations.LINEAR),
+                            new Keyframe(0.5f, KeyframeAnimations.degreeVec(2.39f, -2.61f, 2.5f),
+                                    AnimationChannel.Interpolations.LINEAR))).build();
+    public static final AnimationDefinition HORNED_SLUG_WALK = AnimationDefinition.Builder.withLength(1f).looping()
+            .addAnimation("body",
+                    new AnimationChannel(AnimationChannel.Targets.SCALE,
+                            new Keyframe(0f, KeyframeAnimations.scaleVec(1f, 1f, 1f),
+                                    AnimationChannel.Interpolations.LINEAR),
+                            new Keyframe(0.5f, KeyframeAnimations.scaleVec(1f, 1f, 1.2f),
+                                    AnimationChannel.Interpolations.LINEAR),
+                            new Keyframe(1f, KeyframeAnimations.scaleVec(1f, 1f, 1f),
+                                    AnimationChannel.Interpolations.LINEAR))).build();
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:flowering_azalea_leaves"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "   ",
+    "SP ",
+    "PS "
+  ],
+  "result": {
+    "count": 2,
+    "item": "wands:peppermint_humbug"
+  },
+  "show_notification": true
+}

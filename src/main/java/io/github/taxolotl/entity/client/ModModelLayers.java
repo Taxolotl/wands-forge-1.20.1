@@ -7,4 +7,6 @@ import net.minecraft.resources.ResourceLocation;
 public class ModModelLayers {
     public static final ModelLayerLocation MOUNTAIN_TROLL_LAYER = new ModelLayerLocation(
             new ResourceLocation(Wands.MOD_ID, "mountain_troll_layer"), "main");
+    public static final ModelLayerLocation HORNED_SLUG_LAYER = new ModelLayerLocation(
+            new ResourceLocation(Wands.MOD_ID, "horned_slug_layer"), "main");
 }

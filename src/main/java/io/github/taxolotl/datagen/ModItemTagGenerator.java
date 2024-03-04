@@ -21,7 +21,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(ModTags.Items.WAND_CORES)
-                .add(ModItems.LEMON_DROP.get());
+                .add(ModItems.DRAGON_HEARTSTRING.get());
 
         this.tag(ModTags.Items.WAND_WOODS)
                 .add(Items.OAK_PLANKS);

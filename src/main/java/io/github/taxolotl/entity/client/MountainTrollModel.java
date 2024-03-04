@@ -7,6 +7,7 @@ package io.github.taxolotl.entity.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
+import io.github.taxolotl.Wands;
 import io.github.taxolotl.entity.animations.ModAnimationDefinitions;
 import io.github.taxolotl.entity.custom.MountainTrollEntity;
 import net.minecraft.client.model.HierarchicalModel;
@@ -20,7 +21,7 @@ import net.minecraft.world.entity.Entity;
 
 public class MountainTrollModel<T extends Entity> extends HierarchicalModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("modid", "mountaintrollmodel"), "main");
+	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation(Wands.MOD_ID, "mountain_troll_model"), "main");
 	private final ModelPart troll;
 	private final ModelPart head;
 

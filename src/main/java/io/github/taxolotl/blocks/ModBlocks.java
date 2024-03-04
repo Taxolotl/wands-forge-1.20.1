@@ -6,10 +6,13 @@ import io.github.taxolotl.blocks.custom.MagicBrickSlabBlock;
 import io.github.taxolotl.blocks.custom.MagicBrickStairBlock;
 import io.github.taxolotl.blocks.custom.MagicBrickWallBlock;
 import io.github.taxolotl.item.ModItems;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,7 +30,6 @@ public class ModBlocks {
                     .isViewBlocking((something1, something2, something3) -> false)
                     .isSuffocating((something1, something2, something3) -> false)
                     .noOcclusion()));
-
     public static final RegistryObject<Block> MAGIC_BRICK_STAIRS = registerBlock("magic_brick_stairs",
             () -> new MagicBrickStairBlock(() -> ModBlocks.MAGIC_BRICKS.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(ModBlocks.MAGIC_BRICKS.get())));
@@ -35,6 +37,14 @@ public class ModBlocks {
             () -> new MagicBrickSlabBlock(BlockBehaviour.Properties.copy(ModBlocks.MAGIC_BRICKS.get())));
     public static final RegistryObject<Block> MAGIC_BRICK_WALL = registerBlock("magic_brick_wall",
             () -> new MagicBrickWallBlock(BlockBehaviour.Properties.copy(ModBlocks.MAGIC_BRICKS.get())));
+
+    public static final RegistryObject<Block> DITTANY = registerBlock("dittany",
+            () -> new FlowerBlock(() -> MobEffects.REGENERATION, 2,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> POTTED_DITTANY = BLOCKS.register("potted_dittany",
+            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT),
+                    () -> ModBlocks.DITTANY.get(),
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

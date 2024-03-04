@@ -1,6 +1,7 @@
 package io.github.taxolotl.event;
 
 import io.github.taxolotl.Wands;
+import io.github.taxolotl.entity.client.HornedSlugModel;
 import io.github.taxolotl.entity.client.ModModelLayers;
 import io.github.taxolotl.entity.client.MountainTrollModel;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,5 +14,6 @@ public class ModEventBusClientEvents {
     @SubscribeEvent
     public static void registerLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(ModModelLayers.MOUNTAIN_TROLL_LAYER, MountainTrollModel::createBodyLayer);
+        event.registerLayerDefinition(ModModelLayers.HORNED_SLUG_LAYER, HornedSlugModel::createBodyLayer);
     }
 }
