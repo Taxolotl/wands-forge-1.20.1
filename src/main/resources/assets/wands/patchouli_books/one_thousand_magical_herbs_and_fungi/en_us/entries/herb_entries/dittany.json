@@ -1,0 +1,11 @@
+{
+  "name": "Dittany",
+  "icon": "wands:dittany",
+  "category": "wands:herb_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dittany can be found on mountains"
+    }
+  ]
+}

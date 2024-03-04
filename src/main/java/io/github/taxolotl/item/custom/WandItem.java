@@ -11,6 +11,7 @@ import net.minecraft.world.food.FoodData;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -24,6 +25,16 @@ import java.util.List;
 public class WandItem extends Item {
     public WandItem(Properties pProperties) {
         super(pProperties);
+    }
+
+    @Override
+    public int getUseDuration(ItemStack pStack) {
+        return 100;
+    }
+
+    @Override
+    public UseAnim getUseAnimation(ItemStack pStack) {
+        return UseAnim.BLOCK;
     }
 
     @Override

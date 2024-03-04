@@ -1,0 +1,10 @@
+{
+  "name": "One Thousand Magical Herbs and Fungi",
+  "text_overflow_mode": "resize",
+  "subtitle": "Contains the secrets to Herbology",
+  "landing_text": "The secrets of Herbology are stored within this book",
+  "creative_tab": "wands:wands_tab",
+  "use_resource_pack": true,
+  "book_texture": "patchouli:textures/gui/book_green.png",
+  "show_progress": false
+}

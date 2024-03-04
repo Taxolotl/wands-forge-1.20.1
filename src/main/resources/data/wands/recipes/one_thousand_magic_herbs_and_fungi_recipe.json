@@ -1,0 +1,12 @@
+{
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    {
+      "item": "wands:dittany"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "book": "wands:one_thousand_magical_herbs_and_fungi"
+}

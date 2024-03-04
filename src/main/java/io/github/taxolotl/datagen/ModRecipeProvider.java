@@ -1,5 +1,6 @@
 package io.github.taxolotl.datagen;
 
+import io.github.taxolotl.blocks.ModBlocks;
 import io.github.taxolotl.item.ModItems;
 import io.github.taxolotl.tags.ModTags;
 import net.minecraft.data.PackOutput;
@@ -41,9 +42,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //Cauldron cakes will have a custom recipe within a wizard's cauldron
 
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.PEPPERMINT_HUMBUG.get(), 2)
-                .pattern("   ")
-                .pattern("SP ")
-                .pattern("PS ")
+                .pattern("SP")
+                .pattern("PS")
                 .define('P', Items.FLOWERING_AZALEA_LEAVES) // Please remember to change this to something else
                 .define('S', Items.SUGAR)
                 .unlockedBy(getHasName(Items.FLOWERING_AZALEA_LEAVES), has(Items.FLOWERING_AZALEA_LEAVES))
