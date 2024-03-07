@@ -1,9 +1,13 @@
-// 1.20.1	2024-03-03T20:34:59.3534582	Recipes
+// 1.20.1	2024-03-06T17:59:13.3094268	Recipes
+548d3984f8c70c091a5a4e16fca03af66078eac6 data/wands/advancements/recipes/building_blocks/mahogany_planks.json
+5a413cbaddb8a309b0487bd5f9172e66cf3a7ecd data/wands/advancements/recipes/building_blocks/mahogany_wood.json
 2dad750d9e3999014cf0dab1fa923cfd4b47934d data/wands/advancements/recipes/food/peppermint_humbug.json
 f3dadb3f303e79af2c02170bc144336edde8765b data/wands/advancements/recipes/food/pumpkin_pasty.json
 9f23c508a6c5a65a597bf4e32f0ae021cdf537f7 data/wands/advancements/recipes/food/treacle_tart.json
 d3055af51495510e60e43e7e0cd3deb0d8581bfe data/wands/advancements/recipes/misc/wand.json
-253c175b4e86264e90b6ef63ce42dc0c1179bdd4 data/wands/recipes/peppermint_humbug.json
+ad2ca588cd16dd5270a281d88bd37b85c290a778 data/wands/recipes/mahogany_planks.json
+7ade87ac8172fa32a4ab0c396ae801f42034bdf9 data/wands/recipes/mahogany_wood.json
+d1819f1d1f3d688a165c44086f73ae1fd8dd0b3f data/wands/recipes/peppermint_humbug.json
 70b6f1277a9d8ab064e9e2ad8b67421a0225ff85 data/wands/recipes/pumpkin_pasty.json
 6c1e02e1ef9963cf6000dd51816f679172d04d25 data/wands/recipes/treacle_tart.json
 d6b4e66da5c6c48f436fc7032ff6fdfe69235c36 data/wands/recipes/wand.json

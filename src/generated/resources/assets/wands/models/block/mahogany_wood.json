@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "wands:block/mahogany_log",
+    "side": "wands:block/mahogany_log"
+  }
+}

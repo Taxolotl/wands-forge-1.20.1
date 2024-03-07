@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wands:block/beechwood_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "wands:block/beechwood_wood"
+    },
+    "axis=z": {
+      "model": "wands:block/beechwood_wood_horizontal",
+      "x": 90
+    }
+  }
+}

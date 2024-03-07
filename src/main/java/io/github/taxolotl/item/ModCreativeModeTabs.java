@@ -53,6 +53,55 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.MAGIC_BRICK_WALL.get());
 
                         pOutput.accept(ModBlocks.DITTANY.get());
+
+                        pOutput.accept(ModBlocks.MAHOGANY_LEAVES.get());
+                        pOutput.accept(ModBlocks.MAHOGANY_PLANKS.get());
+                        pOutput.accept(ModBlocks.MAHOGANY_WOOD.get());
+                        pOutput.accept(ModBlocks.MAHOGANY_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_MAHOGANY_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_MAHOGANY_LOG.get());
+
+                        pOutput.accept(ModBlocks.WILLOW_LEAVES.get());
+                        pOutput.accept(ModBlocks.WILLOW_PLANKS.get());
+                        pOutput.accept(ModBlocks.WILLOW_WOOD.get());
+                        pOutput.accept(ModBlocks.WILLOW_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_WILLOW_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_WILLOW_LOG.get());
+
+                        pOutput.accept(ModBlocks.YEW_LEAVES.get());
+                        pOutput.accept(ModBlocks.YEW_PLANKS.get());
+                        pOutput.accept(ModBlocks.YEW_WOOD.get());
+                        pOutput.accept(ModBlocks.YEW_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_YEW_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_YEW_LOG.get());
+
+                        pOutput.accept(ModBlocks.BEECHWOOD_LEAVES.get());
+                        pOutput.accept(ModBlocks.BEECHWOOD_PLANKS.get());
+                        pOutput.accept(ModBlocks.BEECHWOOD_WOOD.get());
+                        pOutput.accept(ModBlocks.BEECHWOOD_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_BEECHWOOD_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_BEECHWOOD_LOG.get());
+
+                        pOutput.accept(ModBlocks.MAPLE_LEAVES.get());
+                        pOutput.accept(ModBlocks.MAPLE_PLANKS.get());
+                        pOutput.accept(ModBlocks.MAPLE_WOOD.get());
+                        pOutput.accept(ModBlocks.MAPLE_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_MAPLE_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_MAPLE_LOG.get());
+
+                        pOutput.accept(ModBlocks.EBONY_LEAVES.get());
+                        pOutput.accept(ModBlocks.EBONY_PLANKS.get());
+                        pOutput.accept(ModBlocks.EBONY_WOOD.get());
+                        pOutput.accept(ModBlocks.EBONY_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_EBONY_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_EBONY_LOG.get());
+
+                        pOutput.accept(ModBlocks.HOLLY_LEAVES.get());
+                        pOutput.accept(ModBlocks.HOLLY_PLANKS.get());
+                        pOutput.accept(ModBlocks.HOLLY_WOOD.get());
+                        pOutput.accept(ModBlocks.HOLLY_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_HOLLY_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_HOLLY_LOG.get());
                     })
                     .build());
 

@@ -10,9 +10,8 @@
     }
   },
   "pattern": [
-    "   ",
-    "SP ",
-    "PS "
+    "SP",
+    "PS"
   ],
   "result": {
     "count": 2,

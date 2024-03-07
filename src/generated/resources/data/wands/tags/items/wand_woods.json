@@ -1,5 +1,12 @@
 {
   "values": [
+    "wands:mahogany_planks",
+    "wands:willow_planks",
+    "wands:yew_planks",
+    "wands:beechwood_planks",
+    "wands:maple_planks",
+    "wands:ebony_planks",
+    "wands:holly_planks",
     "minecraft:oak_planks"
   ]
 }

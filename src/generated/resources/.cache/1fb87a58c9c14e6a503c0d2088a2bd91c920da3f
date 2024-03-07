@@ -1,3 +1,12 @@
-// 1.20.1	2024-03-03T18:48:01.1293452	Tags for minecraft:item mod id wands
+// 1.20.1	2024-03-06T20:31:43.0238929	Tags for minecraft:item mod id wands
+58a2cdde585dfa75f893387b1648b16f554f2649 data/minecraft/tags/items/logs_that_burn.json
+a04df4612f861ee0089273fa65b492a3c83ad729 data/minecraft/tags/items/planks.json
+18ffc4375a5cce7508fdfa5a9f04f8b3a7c1c893 data/wands/tags/items/beechwood_logs.json
+a84ffc1d2dd7922cb9428ef7cb82625f61c9c66a data/wands/tags/items/ebony_logs.json
+e17878480baf5913892c4250a61043a60c64a168 data/wands/tags/items/holly_logs.json
+5cf6f90277f61c5218204d75bee3eee32209c5b7 data/wands/tags/items/mahogany_logs.json
+639fedd39ddfa337251e6f4fbcb2b88ab069eec7 data/wands/tags/items/maple_logs.json
 0217110e8f03edeab50f2947111fa7f180aefbea data/wands/tags/items/wand_cores.json
-68c91e4420f4b41bb7c2278705cc4130f7d50ade data/wands/tags/items/wand_woods.json
+d7a1d2224ae98cdb5450ae8f284279e19114cc07 data/wands/tags/items/wand_woods.json
+041029cf179470dc44b881dbe171808d71369f10 data/wands/tags/items/willow_logs.json
+4c158de6702d0cda9c3d21778a5006c62fde7a68 data/wands/tags/items/yew_logs.json

@@ -58,5 +58,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('W', Items.WATER_BUCKET)
                 .unlockedBy(getHasName(Items.SUGAR), has(Items.SUGAR))
                 .save(pWriter);
+
+        planksFromLog(pWriter, ModBlocks.MAHOGANY_PLANKS.get(), ModTags.Items.MAHOGANY_LOGS, 4);
+        woodFromLogs(pWriter, ModBlocks.MAHOGANY_WOOD.get(), ModBlocks.MAHOGANY_LOG.get());
     }
 }

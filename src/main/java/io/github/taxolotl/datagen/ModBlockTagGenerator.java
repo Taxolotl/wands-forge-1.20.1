@@ -27,6 +27,48 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(Blocks.BRICK_WALL)
                 .add(Blocks.BRICKS);
 
+        this.tag(ModTags.Blocks.MAHOGANY_LOGS)
+                .add(ModBlocks.MAHOGANY_LOG.get())
+                .add(ModBlocks.MAHOGANY_WOOD.get())
+                .add(ModBlocks.STRIPPED_MAHOGANY_LOG.get())
+                .add(ModBlocks.STRIPPED_MAHOGANY_WOOD.get());
+
+        this.tag(ModTags.Blocks.WILLOW_LOGS)
+                .add(ModBlocks.WILLOW_LOG.get())
+                .add(ModBlocks.WILLOW_WOOD.get())
+                .add(ModBlocks.STRIPPED_WILLOW_LOG.get())
+                .add(ModBlocks.STRIPPED_WILLOW_WOOD.get());
+
+        this.tag(ModTags.Blocks.YEW_LOGS)
+                .add(ModBlocks.YEW_LOG.get())
+                .add(ModBlocks.YEW_WOOD.get())
+                .add(ModBlocks.STRIPPED_YEW_LOG.get())
+                .add(ModBlocks.STRIPPED_YEW_WOOD.get());
+
+        this.tag(ModTags.Blocks.BEECHWOOD_LOGS)
+                .add(ModBlocks.BEECHWOOD_LOG.get())
+                .add(ModBlocks.BEECHWOOD_WOOD.get())
+                .add(ModBlocks.STRIPPED_BEECHWOOD_LOG.get())
+                .add(ModBlocks.STRIPPED_BEECHWOOD_WOOD.get());
+
+        this.tag(ModTags.Blocks.MAPLE_LOGS)
+                .add(ModBlocks.MAPLE_LOG.get())
+                .add(ModBlocks.MAPLE_WOOD.get())
+                .add(ModBlocks.STRIPPED_MAPLE_LOG.get())
+                .add(ModBlocks.STRIPPED_MAPLE_WOOD.get());
+
+        this.tag(ModTags.Blocks.EBONY_LOGS)
+                .add(ModBlocks.EBONY_LOG.get())
+                .add(ModBlocks.EBONY_WOOD.get())
+                .add(ModBlocks.STRIPPED_EBONY_LOG.get())
+                .add(ModBlocks.STRIPPED_EBONY_WOOD.get());
+
+        this.tag(ModTags.Blocks.HOLLY_LOGS)
+                .add(ModBlocks.HOLLY_LOG.get())
+                .add(ModBlocks.HOLLY_WOOD.get())
+                .add(ModBlocks.STRIPPED_HOLLY_LOG.get())
+                .add(ModBlocks.STRIPPED_HOLLY_WOOD.get());
+
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.MAGIC_BRICKS.get())
                 .add(ModBlocks.MAGIC_BRICK_STAIRS.get())
@@ -35,5 +77,44 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.WALLS)
             .add(ModBlocks.MAGIC_BRICK_WALL.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.MAHOGANY_LOG.get())
+                .add(ModBlocks.MAHOGANY_WOOD.get())
+                .add(ModBlocks.STRIPPED_MAHOGANY_LOG.get())
+                .add(ModBlocks.STRIPPED_MAHOGANY_WOOD.get())
+                .add(ModBlocks.WILLOW_LOG.get())
+                .add(ModBlocks.WILLOW_WOOD.get())
+                .add(ModBlocks.STRIPPED_WILLOW_LOG.get())
+                .add(ModBlocks.STRIPPED_WILLOW_WOOD.get())
+                .add(ModBlocks.YEW_LOG.get())
+                .add(ModBlocks.YEW_WOOD.get())
+                .add(ModBlocks.STRIPPED_YEW_LOG.get())
+                .add(ModBlocks.STRIPPED_YEW_WOOD.get())
+                .add(ModBlocks.BEECHWOOD_LOG.get())
+                .add(ModBlocks.BEECHWOOD_WOOD.get())
+                .add(ModBlocks.STRIPPED_BEECHWOOD_LOG.get())
+                .add(ModBlocks.STRIPPED_BEECHWOOD_WOOD.get())
+                .add(ModBlocks.MAPLE_LOG.get())
+                .add(ModBlocks.MAPLE_WOOD.get())
+                .add(ModBlocks.STRIPPED_MAPLE_LOG.get())
+                .add(ModBlocks.STRIPPED_MAPLE_WOOD.get())
+                .add(ModBlocks.EBONY_LOG.get())
+                .add(ModBlocks.EBONY_WOOD.get())
+                .add(ModBlocks.STRIPPED_EBONY_LOG.get())
+                .add(ModBlocks.STRIPPED_EBONY_WOOD.get())
+                .add(ModBlocks.HOLLY_LOG.get())
+                .add(ModBlocks.HOLLY_WOOD.get())
+                .add(ModBlocks.STRIPPED_HOLLY_LOG.get())
+                .add(ModBlocks.STRIPPED_HOLLY_WOOD.get());
+
+        this.tag(BlockTags.PLANKS)
+                .add(ModBlocks.MAHOGANY_PLANKS.get())
+                .add(ModBlocks.YEW_PLANKS.get())
+                .add(ModBlocks.BEECHWOOD_PLANKS.get())
+                .add(ModBlocks.MAPLE_PLANKS.get())
+                .add(ModBlocks.EBONY_PLANKS.get())
+                .add(ModBlocks.HOLLY_PLANKS.get())
+                .add(ModBlocks.WILLOW_PLANKS.get());
     }
 }

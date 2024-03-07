@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "wands:block/beechwood_log",
+    "side": "wands:block/beechwood_log"
+  }
+}
