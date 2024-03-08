@@ -1,4 +1,4 @@
-package io.github.taxolotl.tags;
+package io.github.taxolotl.util;
 
 import io.github.taxolotl.Wands;
 import net.minecraft.resources.ResourceLocation;

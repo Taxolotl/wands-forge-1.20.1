@@ -2,12 +2,16 @@ package io.github.taxolotl;
 
 import com.mojang.logging.LogUtils;
 import io.github.taxolotl.blocks.ModBlocks;
+import io.github.taxolotl.entity.ModBlockEntities;
 import io.github.taxolotl.entity.ModEntities;
 import io.github.taxolotl.entity.client.HornedSlugRenderer;
+import io.github.taxolotl.entity.client.ModBoatRenderer;
 import io.github.taxolotl.entity.client.MountainTrollRenderer;
 import io.github.taxolotl.item.ModCreativeModeTabs;
 import io.github.taxolotl.item.ModItems;
+import io.github.taxolotl.util.ModWoodTypes;
 import io.github.taxolotl.villagers.ModVillagers;
+import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -39,6 +43,8 @@ public class Wands {
 
         ModEntities.register(modEventBus);
 
+        ModBlockEntities.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -64,8 +70,18 @@ public class Wands {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            Sheets.addWoodType(ModWoodTypes.MAHOGANY);
+            Sheets.addWoodType(ModWoodTypes.BEECHWOOD);
+            Sheets.addWoodType(ModWoodTypes.YEW);
+            Sheets.addWoodType(ModWoodTypes.MAPLE);
+            Sheets.addWoodType(ModWoodTypes.EBONY);
+            Sheets.addWoodType(ModWoodTypes.WILLOW);
+            Sheets.addWoodType(ModWoodTypes.HOLLY);
+
             EntityRenderers.register(ModEntities.MOUNTAIN_TROLL.get(), MountainTrollRenderer::new);
             EntityRenderers.register(ModEntities.HORNED_SLUG.get(), HornedSlugRenderer::new);
+            EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
+            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
         }
     }
 }

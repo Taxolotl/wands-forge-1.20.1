@@ -1,6 +1,7 @@
 package io.github.taxolotl.datagen.loot;
 
 import io.github.taxolotl.blocks.ModBlocks;
+import io.github.taxolotl.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Items;
@@ -80,6 +81,69 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STRIPPED_HOLLY_WOOD.get());
         this.add(ModBlocks.HOLLY_LEAVES.get(), block ->
                 this.createOakLeavesDrops(block, Blocks.SAND, NORMAL_LEAVES_SAPLING_CHANCES));
+
+        this.add(ModBlocks.MAHOGANY_SIGN.get(), block ->
+                createSingleItemTable(ModItems.MAHOGANY_SIGN.get()));
+        this.add(ModBlocks.MAHOGANY_WALL_SIGN.get(), block ->
+                createSingleItemTable(ModItems.MAHOGANY_SIGN.get()));
+        this.add(ModBlocks.MAHOGANY_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.MAHOGANY_HANGING_SIGN.get()));
+        this.add(ModBlocks.MAHOGANY_WALL_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.MAHOGANY_HANGING_SIGN.get()));
+
+        this.add(ModBlocks.YEW_SIGN.get(), block ->
+                createSingleItemTable(ModItems.YEW_SIGN.get()));
+        this.add(ModBlocks.YEW_WALL_SIGN.get(), block ->
+                createSingleItemTable(ModItems.YEW_SIGN.get()));
+        this.add(ModBlocks.YEW_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.YEW_HANGING_SIGN.get()));
+        this.add(ModBlocks.YEW_WALL_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.YEW_HANGING_SIGN.get()));
+
+        this.add(ModBlocks.BEECHWOOD_SIGN.get(), block ->
+                createSingleItemTable(ModItems.BEECHWOOD_SIGN.get()));
+        this.add(ModBlocks.BEECHWOOD_WALL_SIGN.get(), block ->
+                createSingleItemTable(ModItems.BEECHWOOD_SIGN.get()));
+        this.add(ModBlocks.BEECHWOOD_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.BEECHWOOD_HANGING_SIGN.get()));
+        this.add(ModBlocks.BEECHWOOD_WALL_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.BEECHWOOD_HANGING_SIGN.get()));
+
+        this.add(ModBlocks.WILLOW_SIGN.get(), block ->
+                createSingleItemTable(ModItems.WILLOW_SIGN.get()));
+        this.add(ModBlocks.WILLOW_WALL_SIGN.get(), block ->
+                createSingleItemTable(ModItems.WILLOW_SIGN.get()));
+        this.add(ModBlocks.WILLOW_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.WILLOW_HANGING_SIGN.get()));
+        this.add(ModBlocks.WILLOW_WALL_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.WILLOW_HANGING_SIGN.get()));
+
+        this.add(ModBlocks.MAPLE_SIGN.get(), block ->
+                createSingleItemTable(ModItems.MAPLE_SIGN.get()));
+        this.add(ModBlocks.MAPLE_WALL_SIGN.get(), block ->
+                createSingleItemTable(ModItems.MAPLE_SIGN.get()));
+        this.add(ModBlocks.MAPLE_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.MAPLE_HANGING_SIGN.get()));
+        this.add(ModBlocks.MAPLE_WALL_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.MAPLE_HANGING_SIGN.get()));
+
+        this.add(ModBlocks.EBONY_SIGN.get(), block ->
+                createSingleItemTable(ModItems.EBONY_SIGN.get()));
+        this.add(ModBlocks.EBONY_WALL_SIGN.get(), block ->
+                createSingleItemTable(ModItems.EBONY_SIGN.get()));
+        this.add(ModBlocks.EBONY_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.EBONY_HANGING_SIGN.get()));
+        this.add(ModBlocks.EBONY_WALL_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.EBONY_HANGING_SIGN.get()));
+
+        this.add(ModBlocks.HOLLY_SIGN.get(), block ->
+                createSingleItemTable(ModItems.HOLLY_SIGN.get()));
+        this.add(ModBlocks.HOLLY_WALL_SIGN.get(), block ->
+                createSingleItemTable(ModItems.HOLLY_SIGN.get()));
+        this.add(ModBlocks.HOLLY_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.HOLLY_HANGING_SIGN.get()));
+        this.add(ModBlocks.HOLLY_WALL_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.HOLLY_HANGING_SIGN.get()));
     }
 
     @Override

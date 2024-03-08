@@ -60,6 +60,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.MAHOGANY_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_MAHOGANY_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_MAHOGANY_LOG.get());
+                        pOutput.accept(ModItems.MAHOGANY_SIGN.get());
+                        pOutput.accept(ModItems.MAHOGANY_HANGING_SIGN.get());
 
                         pOutput.accept(ModBlocks.WILLOW_LEAVES.get());
                         pOutput.accept(ModBlocks.WILLOW_PLANKS.get());
@@ -67,6 +69,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.WILLOW_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_WILLOW_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_WILLOW_LOG.get());
+                        pOutput.accept(ModItems.WILLOW_SIGN.get());
+                        pOutput.accept(ModItems.WILLOW_HANGING_SIGN.get());
 
                         pOutput.accept(ModBlocks.YEW_LEAVES.get());
                         pOutput.accept(ModBlocks.YEW_PLANKS.get());
@@ -74,6 +78,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.YEW_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_YEW_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_YEW_LOG.get());
+                        pOutput.accept(ModItems.YEW_SIGN.get());
+                        pOutput.accept(ModItems.YEW_HANGING_SIGN.get());
 
                         pOutput.accept(ModBlocks.BEECHWOOD_LEAVES.get());
                         pOutput.accept(ModBlocks.BEECHWOOD_PLANKS.get());
@@ -81,6 +87,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.BEECHWOOD_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_BEECHWOOD_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_BEECHWOOD_LOG.get());
+                        pOutput.accept(ModItems.BEECHWOOD_SIGN.get());
+                        pOutput.accept(ModItems.BEECHWOOD_HANGING_SIGN.get());
 
                         pOutput.accept(ModBlocks.MAPLE_LEAVES.get());
                         pOutput.accept(ModBlocks.MAPLE_PLANKS.get());
@@ -88,6 +96,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.MAPLE_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_MAPLE_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_MAPLE_LOG.get());
+                        pOutput.accept(ModItems.MAPLE_SIGN.get());
+                        pOutput.accept(ModItems.MAPLE_HANGING_SIGN.get());
 
                         pOutput.accept(ModBlocks.EBONY_LEAVES.get());
                         pOutput.accept(ModBlocks.EBONY_PLANKS.get());
@@ -95,6 +105,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.EBONY_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_EBONY_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_EBONY_LOG.get());
+                        pOutput.accept(ModItems.EBONY_SIGN.get());
+                        pOutput.accept(ModItems.EBONY_HANGING_SIGN.get());
 
                         pOutput.accept(ModBlocks.HOLLY_LEAVES.get());
                         pOutput.accept(ModBlocks.HOLLY_PLANKS.get());
@@ -102,6 +114,29 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.HOLLY_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_HOLLY_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_HOLLY_LOG.get());
+                        pOutput.accept(ModItems.HOLLY_SIGN.get());
+                        pOutput.accept(ModItems.HOLLY_HANGING_SIGN.get());
+
+                        pOutput.accept(ModItems.MAHOGANY_BOAT.get());
+                        pOutput.accept(ModItems.MAHOGANY_CHEST_BOAT.get());
+
+                        pOutput.accept(ModItems.WILLOW_BOAT.get());
+                        pOutput.accept(ModItems.WILLOW_CHEST_BOAT.get());
+
+                        pOutput.accept(ModItems.YEW_BOAT.get());
+                        pOutput.accept(ModItems.YEW_CHEST_BOAT.get());
+
+                        pOutput.accept(ModItems.BEECHWOOD_BOAT.get());
+                        pOutput.accept(ModItems.BEECHWOOD_CHEST_BOAT.get());
+
+                        pOutput.accept(ModItems.MAPLE_BOAT.get());
+                        pOutput.accept(ModItems.MAPLE_CHEST_BOAT.get());
+
+                        pOutput.accept(ModItems.EBONY_BOAT.get());
+                        pOutput.accept(ModItems.EBONY_CHEST_BOAT.get());
+
+                        pOutput.accept(ModItems.HOLLY_BOAT.get());
+                        pOutput.accept(ModItems.HOLLY_CHEST_BOAT.get());
                     })
                     .build());
 

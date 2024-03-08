@@ -2,7 +2,7 @@ package io.github.taxolotl.datagen;
 
 import io.github.taxolotl.blocks.ModBlocks;
 import io.github.taxolotl.item.ModItems;
-import io.github.taxolotl.tags.ModTags;
+import io.github.taxolotl.util.ModTags;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeCategory;

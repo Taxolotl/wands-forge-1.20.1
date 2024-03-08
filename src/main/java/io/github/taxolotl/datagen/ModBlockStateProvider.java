@@ -145,6 +145,47 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_HOLLY_WOOD);
         blockWithItem(ModBlocks.HOLLY_PLANKS);
         leavesBlock(ModBlocks.HOLLY_LEAVES);
+
+        signBlock(((StandingSignBlock) ModBlocks.MAHOGANY_SIGN.get()), ((WallSignBlock) ModBlocks.MAHOGANY_WALL_SIGN.get()),
+                blockTexture(ModBlocks.MAHOGANY_PLANKS.get()));
+        hangingSignBlock(ModBlocks.MAHOGANY_HANGING_SIGN.get(), ModBlocks.MAHOGANY_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.MAHOGANY_PLANKS.get()));
+
+        signBlock(((StandingSignBlock) ModBlocks.YEW_SIGN.get()), ((WallSignBlock) ModBlocks.YEW_WALL_SIGN.get()),
+                blockTexture(ModBlocks.YEW_PLANKS.get()));
+        hangingSignBlock(ModBlocks.YEW_HANGING_SIGN.get(), ModBlocks.YEW_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.YEW_PLANKS.get()));
+
+        signBlock(((StandingSignBlock) ModBlocks.WILLOW_SIGN.get()), ((WallSignBlock) ModBlocks.WILLOW_WALL_SIGN.get()),
+                blockTexture(ModBlocks.WILLOW_PLANKS.get()));
+        hangingSignBlock(ModBlocks.WILLOW_HANGING_SIGN.get(), ModBlocks.WILLOW_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.WILLOW_PLANKS.get()));
+
+        signBlock(((StandingSignBlock) ModBlocks.MAPLE_SIGN.get()), ((WallSignBlock) ModBlocks.MAPLE_WALL_SIGN.get()),
+                blockTexture(ModBlocks.MAPLE_PLANKS.get()));
+        hangingSignBlock(ModBlocks.MAPLE_HANGING_SIGN.get(), ModBlocks.MAPLE_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.MAPLE_PLANKS.get()));
+
+        signBlock(((StandingSignBlock) ModBlocks.EBONY_SIGN.get()), ((WallSignBlock) ModBlocks.EBONY_WALL_SIGN.get()),
+                blockTexture(ModBlocks.EBONY_PLANKS.get()));
+        hangingSignBlock(ModBlocks.EBONY_HANGING_SIGN.get(), ModBlocks.EBONY_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.EBONY_PLANKS.get()));
+
+        signBlock(((StandingSignBlock) ModBlocks.HOLLY_SIGN.get()), ((WallSignBlock) ModBlocks.HOLLY_WALL_SIGN.get()),
+                blockTexture(ModBlocks.HOLLY_PLANKS.get()));
+        hangingSignBlock(ModBlocks.HOLLY_HANGING_SIGN.get(), ModBlocks.HOLLY_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.HOLLY_PLANKS.get()));
+    }
+
+    private String name(Block block) {
+        return key(block).getPath();
+    }
+    private ResourceLocation key(Block block) {
+        return ForgeRegistries.BLOCKS.getKey(block);
+    }
+
+    public void hangingSignBlock(Block signBlock, Block wallSignBlock, ResourceLocation texture) {
+        ModelFile sign = models().sign(name(signBlock), texture);
+        hangingSignBlock(signBlock, wallSignBlock, sign);
+    }
+
+    public void hangingSignBlock(Block signBlock, Block wallSignBlock, ModelFile sign) {
+        simpleBlock(signBlock, sign);
+        simpleBlock(wallSignBlock, sign);
     }
 
     private void leavesBlock(RegistryObject<Block> blockRegistryObject) {

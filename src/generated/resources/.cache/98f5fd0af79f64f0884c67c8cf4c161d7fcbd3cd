@@ -1,5 +1,9 @@
-// 1.20.1	2024-03-04T13:48:00.0803698	Item Models: wands
+// 1.20.1	2024-03-08T10:41:09.2794578	Item Models: wands
 f42f4bc0c20f8e524b49a65f8a497d47b2a92f44 assets/wands/models/item/bat_spleen.json
+f0eb79cad5fd7c606b98b1f92830546c912e88d4 assets/wands/models/item/beechwood_boat.json
+a84b4c4ed393081fa85205e481e5b878f7d05ebe assets/wands/models/item/beechwood_chest_boat.json
+c8b0baef15e9bc517e22d41c845373cc0da515aa assets/wands/models/item/beechwood_hanging_sign.json
+9417ea695599cc50dfebd4772016234d8e4585c8 assets/wands/models/item/beechwood_sign.json
 5d7c0f05350e6496b34b956ed607c04731e77d0b assets/wands/models/item/bezoar.json
 f4a9cf16b8737e0f42fddf50165e2c3e4a9f39d9 assets/wands/models/item/blowing_gum.json
 377abb61ecaeed0e2f5d37a0d8390a87fd63d480 assets/wands/models/item/cauldron_cake.json
@@ -7,8 +11,16 @@ f4a9cf16b8737e0f42fddf50165e2c3e4a9f39d9 assets/wands/models/item/blowing_gum.js
 bea150578be42dcdce89f13aeded036280482088 assets/wands/models/item/dittany.json
 109369fd27d499488d4bc36276fd52524a16f1db assets/wands/models/item/dragon_heartstring.json
 9fd15ebac944081993a87297c16e5a040aed6733 assets/wands/models/item/dragon_liver.json
+de21ba42f7b537de99f1fc7509ea34b872ac78a3 assets/wands/models/item/ebony_boat.json
+617c7b4c31451439fc5578c6a3f7686745d62c86 assets/wands/models/item/ebony_chest_boat.json
+609d39d0632e84ba478a635fe83260e7a569db00 assets/wands/models/item/ebony_hanging_sign.json
+98adc89d7000ab245280ee86e40e0c6f7a899879 assets/wands/models/item/ebony_sign.json
 09e662ca897ff235457d3ef47fa1905901761716 assets/wands/models/item/every_flavour_beans.json
 e45842d56c439ae5f7cb31c4340adf78a422e983 assets/wands/models/item/galleon.json
+715e33ced6c02f4c12d3e206ff7134887528aa74 assets/wands/models/item/holly_boat.json
+cfcfa72d4de426fa0336a99f08c85e1aa8ae6508 assets/wands/models/item/holly_chest_boat.json
+07c1edfb4c12c43cc3a310a965123b7ed8446fec assets/wands/models/item/holly_hanging_sign.json
+633401f54a1db9543ceb014e2e3d4e53313c46e9 assets/wands/models/item/holly_sign.json
 6cf986a5266127dad3106c3bc84cf70e17076c7d assets/wands/models/item/horned_slug.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/wands/models/item/horned_slug_spawn_egg.json
 634f93287377e7c837367cf8e82541d3d60efad4 assets/wands/models/item/knut.json
@@ -17,10 +29,26 @@ e45842d56c439ae5f7cb31c4340adf78a422e983 assets/wands/models/item/galleon.json
 16d91141e3c9d9306f2dedf3939dd5743953df4d assets/wands/models/item/magic_brick_slab.json
 576c6d8d3fe56f17325fd875bd7abd15ee066159 assets/wands/models/item/magic_brick_stairs.json
 2c3743fab1ea58406142ca107bb47f8bb15d1ee5 assets/wands/models/item/magic_brick_wall.json
+ac7dc629e9e617bfe5525192843001d88d2f777c assets/wands/models/item/mahogany_boat.json
+1641376b425dcd991ccfd59a78819db7ba3665e1 assets/wands/models/item/mahogany_chest_boat.json
+8de0fca3b69af7ec14b81790d3137e082cbb24ec assets/wands/models/item/mahogany_hanging_sign.json
+e89f6068a973a602913612d64e3dd445203e2cd2 assets/wands/models/item/mahogany_sign.json
+ece6632171265d9aa8dd1a6695c910cfb20a714b assets/wands/models/item/maple_boat.json
+1279a98c65c7c6503de8c630cece0999f97e03b4 assets/wands/models/item/maple_chest_boat.json
+073ec3d8f65b4d63911c5086e64478cbb49ec1e2 assets/wands/models/item/maple_hanging_sign.json
+85331cf9ea3427e3955cb8b67efe3c15c7f5097f assets/wands/models/item/maple_sign.json
 8aff5f1b4ed5d2a6fc3d4224ac33f3470100aa62 assets/wands/models/item/mountain_troll_boogers.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/wands/models/item/mountain_troll_spawn_egg.json
 a67780c64f99144605e047568819534271ba056c assets/wands/models/item/peppermint_humbug.json
 be184e74ee8baa80d9b3af0bf4df58a6e0affbef assets/wands/models/item/pumpkin_pasty.json
 7f932d7e8ab06170f65ba6f4bde008553530670c assets/wands/models/item/sickle.json
 a73cb1c8b58a0094f6f2c00d4bba92832904827f assets/wands/models/item/treacle_tart.json
+3d71612ec4e67af94fb2fcfdeccda6b5538b239c assets/wands/models/item/willow_boat.json
+2d7c7083b4be1bc517fa9ee40cf9a5061a0b8756 assets/wands/models/item/willow_chest_boat.json
+3dfaaa259082c6d95b124ef0b77014ea247cc39c assets/wands/models/item/willow_hanging_sign.json
+54cc84a959356c3fbba22d643476f065f8ffb8f8 assets/wands/models/item/willow_sign.json
 b3c4914ceecb5dea4ef3242df36ef1a0d26a1612 assets/wands/models/item/wizard_cracker.json
+1eb75b74fa7e2d39a897cb8db9f77798b23188b2 assets/wands/models/item/yew_boat.json
+fac920ace4aa5ecbf92a515356e7f0d8a4282011 assets/wands/models/item/yew_chest_boat.json
+b6f639112bf60e0997db6d6dc1cba474586f1bd6 assets/wands/models/item/yew_hanging_sign.json
+86c83657d904b8ed2ade4808cb2f0a2e9dd3bdd5 assets/wands/models/item/yew_sign.json

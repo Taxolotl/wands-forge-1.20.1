@@ -20,6 +20,22 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        simpleItem(ModItems.MAHOGANY_SIGN);
+        simpleItem(ModItems.MAHOGANY_HANGING_SIGN);
+        simpleItem(ModItems.YEW_SIGN);
+        simpleItem(ModItems.YEW_HANGING_SIGN);
+        simpleItem(ModItems.BEECHWOOD_SIGN);
+        simpleItem(ModItems.BEECHWOOD_HANGING_SIGN);
+        simpleItem(ModItems.WILLOW_SIGN);
+        simpleItem(ModItems.WILLOW_HANGING_SIGN);
+        simpleItem(ModItems.MAPLE_SIGN);
+        simpleItem(ModItems.MAPLE_HANGING_SIGN);
+        simpleItem(ModItems.EBONY_SIGN);
+        simpleItem(ModItems.EBONY_HANGING_SIGN);
+        simpleItem(ModItems.HOLLY_SIGN);
+        simpleItem(ModItems.HOLLY_HANGING_SIGN);
+
+
         simpleItem(ModItems.LEMON_DROP);
         simpleItem(ModItems.EVERY_FLAVOUR_BEANS);
         simpleItem(ModItems.BLOWING_GUM);
@@ -51,6 +67,27 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent(ModItems.HORNED_SLUG_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
         simpleBlockItemBlockTexture(ModBlocks.DITTANY);
+
+        simpleItem(ModItems.MAHOGANY_BOAT);
+        simpleItem(ModItems.MAHOGANY_CHEST_BOAT);
+
+        simpleItem(ModItems.WILLOW_BOAT);
+        simpleItem(ModItems.WILLOW_CHEST_BOAT);
+
+        simpleItem(ModItems.YEW_BOAT);
+        simpleItem(ModItems.YEW_CHEST_BOAT);
+
+        simpleItem(ModItems.BEECHWOOD_BOAT);
+        simpleItem(ModItems.BEECHWOOD_CHEST_BOAT);
+
+        simpleItem(ModItems.MAPLE_BOAT);
+        simpleItem(ModItems.MAPLE_CHEST_BOAT);
+
+        simpleItem(ModItems.EBONY_BOAT);
+        simpleItem(ModItems.EBONY_CHEST_BOAT);
+
+        simpleItem(ModItems.HOLLY_BOAT);
+        simpleItem(ModItems.HOLLY_CHEST_BOAT);
     }
 
     public void brickWallItem(RegistryObject<Block> block) {
