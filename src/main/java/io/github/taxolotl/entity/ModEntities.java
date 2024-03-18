@@ -5,6 +5,7 @@ import io.github.taxolotl.entity.custom.HornedSlugEntity;
 import io.github.taxolotl.entity.custom.ModBoatEntity;
 import io.github.taxolotl.entity.custom.ModChestBoatEntity;
 import io.github.taxolotl.entity.custom.MountainTrollEntity;
+import io.github.taxolotl.util.ModUtilFunctions;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,7 +19,7 @@ public class ModEntities {
 
     public static final RegistryObject<EntityType<MountainTrollEntity>> MOUNTAIN_TROLL =
             ENTITY_TYPES.register("mountain_troll", () -> EntityType.Builder.of(MountainTrollEntity::new, MobCategory.MONSTER)
-                    .sized(2f, 3.658f).build("mountain_troll"));
+                    .sized(2f, ModUtilFunctions.Math.yardsToBlocks(3)).build("mountain_troll"));
 
     public static final RegistryObject<EntityType<HornedSlugEntity>> HORNED_SLUG =
             ENTITY_TYPES.register("horned_slug", () -> EntityType.Builder.of(HornedSlugEntity::new, MobCategory.CREATURE)

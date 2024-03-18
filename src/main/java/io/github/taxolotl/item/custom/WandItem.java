@@ -2,6 +2,7 @@ package io.github.taxolotl.item.custom;
 
 import io.github.taxolotl.blocks.ModBlocks;
 import io.github.taxolotl.util.ModTags;
+import io.github.taxolotl.util.ModUtilFunctions;
 import net.minecraft.network.chat.Component;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionResult;
@@ -14,18 +15,22 @@ import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
 public class WandItem extends Item {
-    public WandItem(Properties pProperties) {
+    private final WoodType woodType;
+
+    public WandItem(Properties pProperties, WoodType woodType) {
         super(pProperties);
+        this.woodType = woodType;
     }
 
     @Override
     public int getUseDuration(ItemStack pStack) {
-        return 100;
+        return ModUtilFunctions.Math.secondsToTicks(5);
     }
 
     @Override
@@ -63,8 +68,8 @@ public class WandItem extends Item {
                     food.setFoodLevel(0);
                 }
             } else {
+                player.sendSystemMessage(Component.literal("Block is not bricks, could not magicify"));
                 if(food.getFoodLevel() >= 1) {
-                    player.sendSystemMessage(Component.literal("Block is not bricks, could not magicify"));
                     food.setFoodLevel(food.getFoodLevel() - 1);
                 } else {
                     food.setFoodLevel(0);

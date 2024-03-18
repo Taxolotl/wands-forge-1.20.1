@@ -10,6 +10,7 @@ import io.github.taxolotl.item.custom.WandItem;
 import net.minecraft.world.item.HangingSignItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SignItem;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,7 +22,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> WAND = ITEMS.register("wand",
-            () -> new WandItem(new Item.Properties()));
+            () -> new WandItem(new Item.Properties(), WoodType.OAK));
 
     public static final RegistryObject<Item> KNUT = ITEMS.register("knut",
             () -> new Item(new Item.Properties()));

@@ -1,5 +1,6 @@
 package io.github.taxolotl.item.custom;
 
+import io.github.taxolotl.util.ModUtilFunctions;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.stats.Stats;
@@ -27,14 +28,16 @@ public class BezoarItem extends Item {
             serverplayer.awardStat(Stats.ITEM_USED.get(this));
         }
 
-        pStack.shrink(1);
+        if (pLivingEntity instanceof Player && !((Player)pLivingEntity).getAbilities().instabuild) {
+            pStack.shrink(1);
+        }
 
         return pStack;
     }
 
     @Override
     public int getUseDuration(ItemStack pStack) {
-        return 32;
+        return ModUtilFunctions.Math.secondsToTicks(2);
     }
 
     @Override

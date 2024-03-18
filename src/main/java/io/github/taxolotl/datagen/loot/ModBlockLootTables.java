@@ -32,7 +32,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STRIPPED_MAHOGANY_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_MAHOGANY_WOOD.get());
         this.add(ModBlocks.MAHOGANY_LEAVES.get(), block ->
-                this.createOakLeavesDrops(block, Blocks.SAND, NORMAL_LEAVES_SAPLING_CHANCES));
+                this.createOakLeavesDrops(block, ModBlocks.MAHOGANY_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.dropSelf(ModBlocks.MAHOGANY_SAPLING.get());
 
         this.dropSelf(ModBlocks.WILLOW_LOG.get());
         this.dropSelf(ModBlocks.WILLOW_PLANKS.get());
@@ -40,7 +41,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STRIPPED_WILLOW_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_WILLOW_WOOD.get());
         this.add(ModBlocks.WILLOW_LEAVES.get(), block ->
-                this.createOakLeavesDrops(block, Blocks.SAND, NORMAL_LEAVES_SAPLING_CHANCES));
+                this.createOakLeavesDrops(block, ModBlocks.WILLOW_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.dropSelf(ModBlocks.WILLOW_SAPLING.get());
 
         this.dropSelf(ModBlocks.YEW_LOG.get());
         this.dropSelf(ModBlocks.YEW_PLANKS.get());
@@ -48,7 +50,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STRIPPED_YEW_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_YEW_WOOD.get());
         this.add(ModBlocks.YEW_LEAVES.get(), block ->
-                this.createOakLeavesDrops(block, Blocks.SAND, NORMAL_LEAVES_SAPLING_CHANCES));
+                this.createOakLeavesDrops(block, ModBlocks.YEW_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.dropSelf(ModBlocks.YEW_SAPLING.get());
 
         this.dropSelf(ModBlocks.BEECHWOOD_LOG.get());
         this.dropSelf(ModBlocks.BEECHWOOD_PLANKS.get());
@@ -56,7 +59,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STRIPPED_BEECHWOOD_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_BEECHWOOD_WOOD.get());
         this.add(ModBlocks.BEECHWOOD_LEAVES.get(), block ->
-                this.createOakLeavesDrops(block, Blocks.SAND, NORMAL_LEAVES_SAPLING_CHANCES));
+                this.createOakLeavesDrops(block, ModBlocks.BEECHWOOD_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.dropSelf(ModBlocks.BEECHWOOD_SAPLING.get());
 
         this.dropSelf(ModBlocks.MAPLE_LOG.get());
         this.dropSelf(ModBlocks.MAPLE_PLANKS.get());
@@ -64,7 +68,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STRIPPED_MAPLE_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_MAPLE_WOOD.get());
         this.add(ModBlocks.MAPLE_LEAVES.get(), block ->
-                this.createOakLeavesDrops(block, Blocks.SAND, NORMAL_LEAVES_SAPLING_CHANCES));
+                this.createOakLeavesDrops(block, ModBlocks.MAPLE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.dropSelf(ModBlocks.MAPLE_SAPLING.get());
 
         this.dropSelf(ModBlocks.EBONY_LOG.get());
         this.dropSelf(ModBlocks.EBONY_PLANKS.get());
@@ -72,7 +77,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STRIPPED_EBONY_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_EBONY_WOOD.get());
         this.add(ModBlocks.EBONY_LEAVES.get(), block ->
-                this.createOakLeavesDrops(block, Blocks.SAND, NORMAL_LEAVES_SAPLING_CHANCES));
+                this.createOakLeavesDrops(block, ModBlocks.EBONY_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.dropSelf(ModBlocks.EBONY_SAPLING.get());
 
         this.dropSelf(ModBlocks.HOLLY_LOG.get());
         this.dropSelf(ModBlocks.HOLLY_PLANKS.get());
@@ -80,7 +86,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STRIPPED_HOLLY_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_HOLLY_WOOD.get());
         this.add(ModBlocks.HOLLY_LEAVES.get(), block ->
-                this.createOakLeavesDrops(block, Blocks.SAND, NORMAL_LEAVES_SAPLING_CHANCES));
+                this.createOakLeavesDrops(block, ModBlocks.HOLLY_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.dropSelf(ModBlocks.HOLLY_SAPLING.get());
 
         this.add(ModBlocks.MAHOGANY_SIGN.get(), block ->
                 createSingleItemTable(ModItems.MAHOGANY_SIGN.get()));

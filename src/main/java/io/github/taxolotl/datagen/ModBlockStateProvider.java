@@ -43,6 +43,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_MAHOGANY_WOOD);
         blockWithItem(ModBlocks.MAHOGANY_PLANKS);
         leavesBlock(ModBlocks.MAHOGANY_LEAVES);
+        signBlock(((StandingSignBlock) ModBlocks.MAHOGANY_SIGN.get()), ((WallSignBlock) ModBlocks.MAHOGANY_WALL_SIGN.get()),
+                blockTexture(ModBlocks.MAHOGANY_PLANKS.get()));
+        hangingSignBlock(ModBlocks.MAHOGANY_HANGING_SIGN.get(), ModBlocks.MAHOGANY_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.MAHOGANY_PLANKS.get()));
+        saplingBlock(ModBlocks.MAHOGANY_SAPLING);
 
         logBlock(((RotatedPillarBlock) ModBlocks.WILLOW_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.WILLOW_WOOD.get()),
@@ -60,6 +64,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_WILLOW_WOOD);
         blockWithItem(ModBlocks.WILLOW_PLANKS);
         leavesBlock(ModBlocks.WILLOW_LEAVES);
+        signBlock(((StandingSignBlock) ModBlocks.WILLOW_SIGN.get()), ((WallSignBlock) ModBlocks.WILLOW_WALL_SIGN.get()),
+                blockTexture(ModBlocks.WILLOW_PLANKS.get()));
+        hangingSignBlock(ModBlocks.WILLOW_HANGING_SIGN.get(), ModBlocks.WILLOW_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.WILLOW_PLANKS.get()));
+        saplingBlock(ModBlocks.WILLOW_SAPLING);
 
         logBlock(((RotatedPillarBlock) ModBlocks.YEW_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.YEW_WOOD.get()),
@@ -77,6 +85,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_YEW_WOOD);
         blockWithItem(ModBlocks.YEW_PLANKS);
         leavesBlock(ModBlocks.YEW_LEAVES);
+        signBlock(((StandingSignBlock) ModBlocks.YEW_SIGN.get()), ((WallSignBlock) ModBlocks.YEW_WALL_SIGN.get()),
+                blockTexture(ModBlocks.YEW_PLANKS.get()));
+        hangingSignBlock(ModBlocks.YEW_HANGING_SIGN.get(), ModBlocks.YEW_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.YEW_PLANKS.get()));
+        saplingBlock(ModBlocks.YEW_SAPLING);
 
         logBlock(((RotatedPillarBlock) ModBlocks.BEECHWOOD_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.BEECHWOOD_WOOD.get()),
@@ -94,6 +106,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_BEECHWOOD_WOOD);
         blockWithItem(ModBlocks.BEECHWOOD_PLANKS);
         leavesBlock(ModBlocks.BEECHWOOD_LEAVES);
+        signBlock(((StandingSignBlock) ModBlocks.BEECHWOOD_SIGN.get()), ((WallSignBlock) ModBlocks.BEECHWOOD_WALL_SIGN.get()),
+                blockTexture(ModBlocks.BEECHWOOD_PLANKS.get()));
+        hangingSignBlock(ModBlocks.BEECHWOOD_HANGING_SIGN.get(), ModBlocks.BEECHWOOD_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.BEECHWOOD_PLANKS.get()));
+        saplingBlock(ModBlocks.BEECHWOOD_SAPLING);
 
         logBlock(((RotatedPillarBlock) ModBlocks.MAPLE_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.MAPLE_WOOD.get()),
@@ -111,6 +127,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_MAPLE_WOOD);
         blockWithItem(ModBlocks.MAPLE_PLANKS);
         leavesBlock(ModBlocks.MAPLE_LEAVES);
+        signBlock(((StandingSignBlock) ModBlocks.MAPLE_SIGN.get()), ((WallSignBlock) ModBlocks.MAPLE_WALL_SIGN.get()),
+                blockTexture(ModBlocks.MAPLE_PLANKS.get()));
+        hangingSignBlock(ModBlocks.MAPLE_HANGING_SIGN.get(), ModBlocks.MAPLE_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.MAPLE_PLANKS.get()));
+        saplingBlock(ModBlocks.MAPLE_SAPLING);
 
         logBlock(((RotatedPillarBlock) ModBlocks.EBONY_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.EBONY_WOOD.get()),
@@ -128,6 +148,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_EBONY_WOOD);
         blockWithItem(ModBlocks.EBONY_PLANKS);
         leavesBlock(ModBlocks.EBONY_LEAVES);
+        signBlock(((StandingSignBlock) ModBlocks.EBONY_SIGN.get()), ((WallSignBlock) ModBlocks.EBONY_WALL_SIGN.get()),
+                blockTexture(ModBlocks.EBONY_PLANKS.get()));
+        hangingSignBlock(ModBlocks.EBONY_HANGING_SIGN.get(), ModBlocks.EBONY_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.EBONY_PLANKS.get()));
+        saplingBlock(ModBlocks.EBONY_SAPLING);
 
         logBlock(((RotatedPillarBlock) ModBlocks.HOLLY_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.HOLLY_WOOD.get()),
@@ -145,30 +169,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_HOLLY_WOOD);
         blockWithItem(ModBlocks.HOLLY_PLANKS);
         leavesBlock(ModBlocks.HOLLY_LEAVES);
-
-        signBlock(((StandingSignBlock) ModBlocks.MAHOGANY_SIGN.get()), ((WallSignBlock) ModBlocks.MAHOGANY_WALL_SIGN.get()),
-                blockTexture(ModBlocks.MAHOGANY_PLANKS.get()));
-        hangingSignBlock(ModBlocks.MAHOGANY_HANGING_SIGN.get(), ModBlocks.MAHOGANY_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.MAHOGANY_PLANKS.get()));
-
-        signBlock(((StandingSignBlock) ModBlocks.YEW_SIGN.get()), ((WallSignBlock) ModBlocks.YEW_WALL_SIGN.get()),
-                blockTexture(ModBlocks.YEW_PLANKS.get()));
-        hangingSignBlock(ModBlocks.YEW_HANGING_SIGN.get(), ModBlocks.YEW_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.YEW_PLANKS.get()));
-
-        signBlock(((StandingSignBlock) ModBlocks.WILLOW_SIGN.get()), ((WallSignBlock) ModBlocks.WILLOW_WALL_SIGN.get()),
-                blockTexture(ModBlocks.WILLOW_PLANKS.get()));
-        hangingSignBlock(ModBlocks.WILLOW_HANGING_SIGN.get(), ModBlocks.WILLOW_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.WILLOW_PLANKS.get()));
-
-        signBlock(((StandingSignBlock) ModBlocks.MAPLE_SIGN.get()), ((WallSignBlock) ModBlocks.MAPLE_WALL_SIGN.get()),
-                blockTexture(ModBlocks.MAPLE_PLANKS.get()));
-        hangingSignBlock(ModBlocks.MAPLE_HANGING_SIGN.get(), ModBlocks.MAPLE_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.MAPLE_PLANKS.get()));
-
-        signBlock(((StandingSignBlock) ModBlocks.EBONY_SIGN.get()), ((WallSignBlock) ModBlocks.EBONY_WALL_SIGN.get()),
-                blockTexture(ModBlocks.EBONY_PLANKS.get()));
-        hangingSignBlock(ModBlocks.EBONY_HANGING_SIGN.get(), ModBlocks.EBONY_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.EBONY_PLANKS.get()));
-
         signBlock(((StandingSignBlock) ModBlocks.HOLLY_SIGN.get()), ((WallSignBlock) ModBlocks.HOLLY_WALL_SIGN.get()),
                 blockTexture(ModBlocks.HOLLY_PLANKS.get()));
         hangingSignBlock(ModBlocks.HOLLY_HANGING_SIGN.get(), ModBlocks.HOLLY_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.HOLLY_PLANKS.get()));
+        saplingBlock(ModBlocks.HOLLY_SAPLING);
+    }
+
+    private void saplingBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlock(blockRegistryObject.get(),
+                models().cross(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
 
     private String name(Block block) {

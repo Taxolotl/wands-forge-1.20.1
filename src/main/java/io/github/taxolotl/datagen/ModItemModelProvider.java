@@ -22,18 +22,45 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.MAHOGANY_SIGN);
         simpleItem(ModItems.MAHOGANY_HANGING_SIGN);
+        simpleItem(ModItems.MAHOGANY_BOAT);
+        simpleItem(ModItems.MAHOGANY_CHEST_BOAT);
+        saplingItem(ModBlocks.MAHOGANY_SAPLING);
+
         simpleItem(ModItems.YEW_SIGN);
         simpleItem(ModItems.YEW_HANGING_SIGN);
+        simpleItem(ModItems.YEW_BOAT);
+        simpleItem(ModItems.YEW_CHEST_BOAT);
+        saplingItem(ModBlocks.YEW_SAPLING);
+
         simpleItem(ModItems.BEECHWOOD_SIGN);
         simpleItem(ModItems.BEECHWOOD_HANGING_SIGN);
+        simpleItem(ModItems.BEECHWOOD_BOAT);
+        simpleItem(ModItems.BEECHWOOD_CHEST_BOAT);
+        saplingItem(ModBlocks.BEECHWOOD_SAPLING);
+
         simpleItem(ModItems.WILLOW_SIGN);
         simpleItem(ModItems.WILLOW_HANGING_SIGN);
+        simpleItem(ModItems.WILLOW_BOAT);
+        simpleItem(ModItems.WILLOW_CHEST_BOAT);
+        saplingItem(ModBlocks.WILLOW_SAPLING);
+
         simpleItem(ModItems.MAPLE_SIGN);
         simpleItem(ModItems.MAPLE_HANGING_SIGN);
+        simpleItem(ModItems.MAPLE_BOAT);
+        simpleItem(ModItems.MAPLE_CHEST_BOAT);
+        saplingItem(ModBlocks.MAPLE_SAPLING);
+
         simpleItem(ModItems.EBONY_SIGN);
         simpleItem(ModItems.EBONY_HANGING_SIGN);
+        simpleItem(ModItems.EBONY_BOAT);
+        simpleItem(ModItems.EBONY_CHEST_BOAT);
+        saplingItem(ModBlocks.EBONY_SAPLING);
+
         simpleItem(ModItems.HOLLY_SIGN);
         simpleItem(ModItems.HOLLY_HANGING_SIGN);
+        simpleItem(ModItems.HOLLY_BOAT);
+        simpleItem(ModItems.HOLLY_CHEST_BOAT);
+        saplingItem(ModBlocks.HOLLY_SAPLING);
 
 
         simpleItem(ModItems.LEMON_DROP);
@@ -67,27 +94,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent(ModItems.HORNED_SLUG_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
         simpleBlockItemBlockTexture(ModBlocks.DITTANY);
+    }
 
-        simpleItem(ModItems.MAHOGANY_BOAT);
-        simpleItem(ModItems.MAHOGANY_CHEST_BOAT);
-
-        simpleItem(ModItems.WILLOW_BOAT);
-        simpleItem(ModItems.WILLOW_CHEST_BOAT);
-
-        simpleItem(ModItems.YEW_BOAT);
-        simpleItem(ModItems.YEW_CHEST_BOAT);
-
-        simpleItem(ModItems.BEECHWOOD_BOAT);
-        simpleItem(ModItems.BEECHWOOD_CHEST_BOAT);
-
-        simpleItem(ModItems.MAPLE_BOAT);
-        simpleItem(ModItems.MAPLE_CHEST_BOAT);
-
-        simpleItem(ModItems.EBONY_BOAT);
-        simpleItem(ModItems.EBONY_CHEST_BOAT);
-
-        simpleItem(ModItems.HOLLY_BOAT);
-        simpleItem(ModItems.HOLLY_CHEST_BOAT);
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(Wands.MOD_ID, "block/" + item.getId().getPath()));
     }
 
     public void brickWallItem(RegistryObject<Block> block) {
