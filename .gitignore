@@ -29,3 +29,5 @@ gradle
 run-data
 
 mcmodsrepo
+
+src/generated/resources/.cache
