@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "wands:block/beechwood_planks",
+    "side": "wands:block/beechwood_planks",
+    "top": "wands:block/beechwood_planks"
+  }
+}

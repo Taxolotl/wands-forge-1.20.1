@@ -21,26 +21,26 @@ public class ModEventBusClientEvents {
         event.registerLayerDefinition(ModModelLayers.MOUNTAIN_TROLL_LAYER, MountainTrollModel::createBodyLayer);
         event.registerLayerDefinition(ModModelLayers.HORNED_SLUG_LAYER, HornedSlugModel::createBodyLayer);
 
-        event.registerLayerDefinition(ModModelLayers.MAHOGANY_BOAT_LAYER, BoatModel::createBodyModel);
-        event.registerLayerDefinition(ModModelLayers.MAHOGANY_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
-
-        event.registerLayerDefinition(ModModelLayers.WILLOW_BOAT_LAYER, BoatModel::createBodyModel);
-        event.registerLayerDefinition(ModModelLayers.WILLOW_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
-
-        event.registerLayerDefinition(ModModelLayers.YEW_BOAT_LAYER, BoatModel::createBodyModel);
-        event.registerLayerDefinition(ModModelLayers.YEW_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
-
         event.registerLayerDefinition(ModModelLayers.BEECHWOOD_BOAT_LAYER, BoatModel::createBodyModel);
         event.registerLayerDefinition(ModModelLayers.BEECHWOOD_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
-
-        event.registerLayerDefinition(ModModelLayers.MAPLE_BOAT_LAYER, BoatModel::createBodyModel);
-        event.registerLayerDefinition(ModModelLayers.MAPLE_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
 
         event.registerLayerDefinition(ModModelLayers.EBONY_BOAT_LAYER, BoatModel::createBodyModel);
         event.registerLayerDefinition(ModModelLayers.EBONY_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
 
         event.registerLayerDefinition(ModModelLayers.HOLLY_BOAT_LAYER, BoatModel::createBodyModel);
         event.registerLayerDefinition(ModModelLayers.HOLLY_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
+
+        event.registerLayerDefinition(ModModelLayers.MAHOGANY_BOAT_LAYER, BoatModel::createBodyModel);
+        event.registerLayerDefinition(ModModelLayers.MAHOGANY_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
+
+        event.registerLayerDefinition(ModModelLayers.MAPLE_BOAT_LAYER, BoatModel::createBodyModel);
+        event.registerLayerDefinition(ModModelLayers.MAPLE_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
+
+        event.registerLayerDefinition(ModModelLayers.WILLOW_BOAT_LAYER, BoatModel::createBodyModel);
+        event.registerLayerDefinition(ModModelLayers.WILLOW_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
+
+        event.registerLayerDefinition(ModModelLayers.YEW_BOAT_LAYER, BoatModel::createBodyModel);
+        event.registerLayerDefinition(ModModelLayers.YEW_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
     }
 
     @SubscribeEvent

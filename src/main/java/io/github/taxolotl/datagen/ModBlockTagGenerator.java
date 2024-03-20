@@ -116,5 +116,32 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.EBONY_PLANKS.get())
                 .add(ModBlocks.HOLLY_PLANKS.get())
                 .add(ModBlocks.WILLOW_PLANKS.get());
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.BEECHWOOD_FENCE.get())
+                .add(ModBlocks.EBONY_FENCE.get())
+                .add(ModBlocks.HOLLY_FENCE.get())
+                .add(ModBlocks.MAHOGANY_FENCE.get())
+                .add(ModBlocks.MAPLE_FENCE.get())
+                .add(ModBlocks.WILLOW_FENCE.get())
+                .add(ModBlocks.YEW_FENCE.get());
+
+        this.tag(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.BEECHWOOD_FENCE.get())
+                .add(ModBlocks.EBONY_FENCE.get())
+                .add(ModBlocks.HOLLY_FENCE.get())
+                .add(ModBlocks.MAHOGANY_FENCE.get())
+                .add(ModBlocks.MAPLE_FENCE.get())
+                .add(ModBlocks.WILLOW_FENCE.get())
+                .add(ModBlocks.YEW_FENCE.get());
+
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.BEECHWOOD_FENCE_GATE.get())
+                .add(ModBlocks.EBONY_FENCE_GATE.get())
+                .add(ModBlocks.HOLLY_FENCE_GATE.get())
+                .add(ModBlocks.MAHOGANY_FENCE_GATE.get())
+                .add(ModBlocks.MAPLE_FENCE_GATE.get())
+                .add(ModBlocks.WILLOW_FENCE_GATE.get())
+                .add(ModBlocks.YEW_FENCE_GATE.get());
     }
 }

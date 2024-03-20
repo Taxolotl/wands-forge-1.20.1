@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wands:block/yew_slab"
+    },
+    "type=double": {
+      "model": "wands:block/yew_planks"
+    },
+    "type=top": {
+      "model": "wands:block/yew_slab_top"
+    }
+  }
+}

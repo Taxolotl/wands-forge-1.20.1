@@ -39,8 +39,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.PUMPKIN), has(Items.PUMPKIN))
                 .save(pWriter);
 
-        //Cauldron cakes will have a custom recipe within a wizard's cauldron
-
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.PEPPERMINT_HUMBUG.get(), 2)
                 .pattern("SP")
                 .pattern("PS")
@@ -59,7 +57,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.SUGAR), has(Items.SUGAR))
                 .save(pWriter);
 
+        planksFromLog(pWriter, ModBlocks.BEECHWOOD_PLANKS.get(), ModTags.Items.BEECHWOOD_LOGS, 4);
+        woodFromLogs(pWriter, ModBlocks.BEECHWOOD_WOOD.get(), ModBlocks.BEECHWOOD_LOG.get());
+
+        planksFromLog(pWriter, ModBlocks.EBONY_PLANKS.get(), ModTags.Items.EBONY_LOGS, 4);
+        woodFromLogs(pWriter, ModBlocks.EBONY_WOOD.get(), ModBlocks.EBONY_LOG.get());
+
+        planksFromLog(pWriter, ModBlocks.HOLLY_PLANKS.get(), ModTags.Items.HOLLY_LOGS, 4);
+        woodFromLogs(pWriter, ModBlocks.HOLLY_WOOD.get(), ModBlocks.HOLLY_LOG.get());
+
         planksFromLog(pWriter, ModBlocks.MAHOGANY_PLANKS.get(), ModTags.Items.MAHOGANY_LOGS, 4);
         woodFromLogs(pWriter, ModBlocks.MAHOGANY_WOOD.get(), ModBlocks.MAHOGANY_LOG.get());
+
+        planksFromLog(pWriter, ModBlocks.MAPLE_PLANKS.get(), ModTags.Items.MAPLE_LOGS, 4);
+        woodFromLogs(pWriter, ModBlocks.MAPLE_WOOD.get(), ModBlocks.MAPLE_LOG.get());
+
+        planksFromLog(pWriter, ModBlocks.WILLOW_PLANKS.get(), ModTags.Items.WILLOW_LOGS, 4);
+        woodFromLogs(pWriter, ModBlocks.WILLOW_WOOD.get(), ModBlocks.WILLOW_LOG.get());
+
+        planksFromLog(pWriter, ModBlocks.YEW_PLANKS.get(), ModTags.Items.YEW_LOGS, 4);
+        woodFromLogs(pWriter, ModBlocks.YEW_WOOD.get(), ModBlocks.YEW_LOG.get());
     }
 }

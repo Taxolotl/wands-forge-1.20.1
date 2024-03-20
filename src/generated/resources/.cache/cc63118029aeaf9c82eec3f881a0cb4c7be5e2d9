@@ -1,8 +1,11 @@
-// 1.20.1	2024-03-06T20:31:43.0248931	Tags for minecraft:block mod id wands
+// 1.20.1	2024-03-19T18:37:16.7133833	Tags for minecraft:block mod id wands
+a67f65088a091fbb234ca2c78bd664e2fbece6e1 data/minecraft/tags/blocks/fences.json
+fede4ee2eadf683dfd9a4345bce2b953cb20af95 data/minecraft/tags/blocks/fence_gates.json
 b1af187ec5e5825f5514992777e0524f9d7e6c9f data/minecraft/tags/blocks/logs_that_burn.json
 b8c9a6cc354958b9390862ac9c8a151ac13d7c9f data/minecraft/tags/blocks/mineable/pickaxe.json
 691256330a409789418622c4aa828a46f6b43b17 data/minecraft/tags/blocks/planks.json
 7b826323c5f0a0ad5d69e630bacb41d6fceb4f71 data/minecraft/tags/blocks/walls.json
+a67f65088a091fbb234ca2c78bd664e2fbece6e1 data/minecraft/tags/blocks/wooden_fences.json
 18ffc4375a5cce7508fdfa5a9f04f8b3a7c1c893 data/wands/tags/blocks/beechwood_logs.json
 e996ff0a3c5b825eb55f2131a66ce09dd9f4b8ea data/wands/tags/blocks/bricks_tag.json
 a84ffc1d2dd7922cb9428ef7cb82625f61c9c66a data/wands/tags/blocks/ebony_logs.json

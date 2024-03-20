@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wands:block/holly_slab"
+    },
+    "type=double": {
+      "model": "wands:block/holly_planks"
+    },
+    "type=top": {
+      "model": "wands:block/holly_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "wands:block/holly_planks",
+    "side": "wands:block/holly_planks",
+    "top": "wands:block/holly_planks"
+  }
+}
