@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-19T18:37:16.7183817	Block States: wands
+// 1.20.1	2024-03-21T11:11:05.7188509	Block States: wands
 b9a8f8728f3ea5eca90521a389a0f901189930d2 assets/wands/blockstates/beechwood_button.json
 dccbe3eb453f2c951b3af07eab2f4c3523e4d756 assets/wands/blockstates/beechwood_door.json
 7a34cad2c3b6a229652b84c92536c0ebd76f63fa assets/wands/blockstates/beechwood_fence.json
@@ -103,6 +103,7 @@ fe8425acebbe5b4ea7f48881c65b22240cd92f48 assets/wands/blockstates/stripped_willo
 d573497d83cf95cbad3e6323aa7709f3e6d4c0f1 assets/wands/blockstates/stripped_willow_wood.json
 2b8dc5621eb42c504db872ca10f1ad12af9cc65e assets/wands/blockstates/stripped_yew_log.json
 9b65bacc8ca99e3c008340ff16ce01975ecffe99 assets/wands/blockstates/stripped_yew_wood.json
+44241e6b75af6bcfa99b1d0d33f7abedea189a58 assets/wands/blockstates/wand_crafting_station.json
 75abbf23ea012e30ddf77dd71fcbffed02504d02 assets/wands/blockstates/willow_button.json
 efbeecf455d0d98176a65ae118caf845ddbe3744 assets/wands/blockstates/willow_door.json
 ed5ffabb0ace055b940aa48187cf7edaff78911f assets/wands/blockstates/willow_fence.json
@@ -456,6 +457,7 @@ d9a11e46c2a55d36b48db4ec1b55d010188353d6 assets/wands/models/item/stripped_mahog
 c0a5bf20896a58f1d6eef393ee7d291453852353 assets/wands/models/item/stripped_willow_wood.json
 7d5ff7379a2f995ce6e71225198cb43dcf5d49f7 assets/wands/models/item/stripped_yew_log.json
 f033e0d624839f11d57aba7b6c260f0a18aba42f assets/wands/models/item/stripped_yew_wood.json
+bb938f58e24458d45aed12f0b3ecf2b1b53376a7 assets/wands/models/item/wand_crafting_station.json
 efffbccb4e4f1467d76ac4109efd7857c74d130f assets/wands/models/item/willow_leaves.json
 c7e123348296a85f3e04012cf11c0e7241a1a653 assets/wands/models/item/willow_log.json
 02ad5818341f13ae45426c0e6273bda5186d2877 assets/wands/models/item/willow_planks.json

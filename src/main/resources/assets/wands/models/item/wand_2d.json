@@ -1,6 +1,20 @@
 {
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "wands:item/wand"
-	}
+		"layer0": "wands:item/wand/oak"
+	},
+	"overrides" : [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "wands:item/wand/mahogany"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "wands:item/wand/yew"
+		}
+	]
 }

@@ -169,10 +169,13 @@
   "item.wands.yew_boat": "Yew Boat",
   "item.wands.yew_chest_boat": "Yew Chest Boat",
 
+  "block.wands.wand_crafting_station": "Wand Crafting Station",
+
   "tooltip.wands.wand.tooltip": "A wand designed to help focus your magical abilities",
 
   "entity.minecraft.villager.wands.candy_maker": "Candy Maker",
   "entity.minecraft.villager.wands.exchanger": "Exchanger",
+  "entity.minecraft.villager.wands.wandmaker": "Wandmaker",
   "entity.wands.mountain_troll": "Mountain Troll",
   "entity.wands.horned_slug": "Horned Slug",
   "entity.wands.mod_chest_boat": "Boat with Chest",

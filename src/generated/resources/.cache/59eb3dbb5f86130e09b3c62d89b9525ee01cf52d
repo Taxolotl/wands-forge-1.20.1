@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-19T18:37:16.7153831	Loot Tables
+// 1.20.1	2024-03-21T02:42:13.5987204	Loot Tables
 89819b30188569641521dce13d0cee4f4aa5d39b data/wands/loot_tables/blocks/beechwood_button.json
 fb2cd5902e3ac08623c6ab21a75cc53d86c0c70b data/wands/loot_tables/blocks/beechwood_door.json
 7060b0e85bcd75755a74f2d877e927c29839eaa0 data/wands/loot_tables/blocks/beechwood_fence.json
@@ -104,6 +104,7 @@ cbfca49509e5d5d554224b5240099eb0cb04637a data/wands/loot_tables/blocks/stripped_
 3ba3991ada5a50252bad48dc160b586596e6e183 data/wands/loot_tables/blocks/stripped_willow_wood.json
 95d78b453787e7270142512306da91297668cf78 data/wands/loot_tables/blocks/stripped_yew_log.json
 a4cd56e38f43ed0d0bafffff4f047a4156b61cbe data/wands/loot_tables/blocks/stripped_yew_wood.json
+7cb7aa0275079c4e83a530ad1ba53a06a2f1802a data/wands/loot_tables/blocks/wand_crafting_station.json
 91c76ae19ef2b6e2bb725629af9353165579f9dd data/wands/loot_tables/blocks/willow_button.json
 51407e185acfd6a0ed0e933b0dae29cf9e0a1713 data/wands/loot_tables/blocks/willow_door.json
 18df64fe8bff8b1f2948fbdfdad7e03aa1e455f2 data/wands/loot_tables/blocks/willow_fence.json
