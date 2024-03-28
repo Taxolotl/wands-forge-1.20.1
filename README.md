@@ -1,2 +1,2 @@
-Dependencies:
+Optional Dependencies:
   Patchouli
