@@ -12,10 +12,10 @@ public class ModBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, Wands.MOD_ID);
 
-    public static final RegistryObject<BlockEntityType<WandCraftingStationBlockEntity>> WAND_CRAFTING_BE =
+    /*public static final RegistryObject<BlockEntityType<WandCraftingStationBlockEntity>> WAND_CRAFTING_BE =
             BLOCK_ENTITIES.register("wand_crafting_be", () ->
                     BlockEntityType.Builder.of(WandCraftingStationBlockEntity::new,
-                            ModBlocks.WAND_CRAFTING_STATION.get()).build(null));
+                            ModBlocks.WAND_CRAFTING_STATION.get()).build(null));*/
 
     public static final RegistryObject<BlockEntityType<ModSignBlockEntity>> MOD_SIGN =
             BLOCK_ENTITIES.register("mod_sign", () ->
